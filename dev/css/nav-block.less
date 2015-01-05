@@ -1,0 +1,142 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@main-text-color : #ffffff;
+@menu-active-color : #54adf1;
+@footer-mainheader-color : #767676;
+@nav-block-background: #333333;
+@navbar__labels-heigth: 40px;
+/* -------= variables =------- */
+
+/* -------= nav-block =------- */
+.nav-block {
+    background-color: @nav-block-background;
+}
+.navbar-delete-styles {
+    background-color: @nav-block-background;
+    border-color: transparent;
+    min-height: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    z-index: 1000;
+    border: none !important;
+}
+.navbar-custom {
+    border: none;
+    border-radius: 0;
+    min-height: @navbar__labels-heigth;
+    background-color: @nav-block-background;
+    border-color: transparent;
+    z-index: 1000;
+
+    margin: 0;
+    //width: auto;
+    ul li a {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: @navbar__labels-heigth;
+        line-height: @navbar__labels-heigth !important;
+        color: @main-text-color;
+        text-decoration: none;
+        .ubuntu;
+        font-size: 14px;
+        &:hover {
+            background-color: #414141 !important;
+            color: #54adf1;
+        }
+    }
+}
+.menu-link_active {
+    background-color: @menu-active-color;
+}
+.navbar__no-padding_right_left {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-button_custom {
+    margin: 0;
+    margin-top: 1px;
+}
+/* -------= custom media querie for navbar  =------- */
+@media screen and (max-width: 995px) and (min-width: 768px) {
+    .navbar-custom,
+    .ns_navbar {
+        height: @navbar__labels-heigth * 2;
+    }
+}
+/* -------= custom media querie for navbar  =------- */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #414141;
+}
+.dropdown-menu {
+    .clearfix;
+    background-color: #414141;
+    border-radius: 0;
+    border-top: 2px solid #54adf1;
+}
+.dropdown-menu-link-font-size {
+    .ubuntu;
+    font-size: 12px !important;
+}
+.dropdown-menu .divider {
+    margin: 0;
+    background-color: #545454;
+}
+@bgDefault      : #333333;
+@bgHighlight    : #414141;
+@colDefault     : #ffffff;
+@colHighlight   : #ffffff;
+.navbar-default {
+	background-color: @bgDefault;
+	border-color: @bgHighlight;
+    text-transform: uppercase;
+    .ubuntu-m;
+	.navbar-brand {
+		color: @colDefault;
+		&:hover, &:focus {
+			color: @colHighlight; }}
+	.navbar-text {
+		color: @colDefault; }
+	.navbar-nav {
+		> li {
+			> a {
+				color: @colDefault;
+				&:hover,  &:focus {
+					color: @colHighlight; }}}
+		> .active {
+			> a, > a:hover, > a:focus {
+				color: @colHighlight;
+				background-color: @bgHighlight; }}
+		> .open {
+			> a, > a:hover, > a:focus {
+				color: @colHighlight;
+				background-color: @bgHighlight; }}}
+	.navbar-toggle {
+		border-color: @bgHighlight;
+		&:hover, &:focus {
+			background-color: @bgHighlight; }
+		.icon-bar {
+			background-color: @colDefault; }}
+	.navbar-collapse,
+	.navbar-form {
+		border-color: @colDefault; }
+	.navbar-link {
+		color: @colDefault;
+		&:hover {
+			color: @colHighlight; }}}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		> li > a {
+			color: @colDefault;
+			&:hover, &:focus {
+				color: @colHighlight; }}
+		> .active {
+			> a, > a:hover, > a:focus, {
+				color: @colHighlight;
+				background-color: @bgHighlight; }}}
+}
+/* -------= nav-block =------- */

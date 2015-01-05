@@ -1,0 +1,91 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@logo-block-background: #282828;
+@logo-block-text-color: #ffffff;
+@logo-block-min-height: 97px;
+@logo-height: 71px;
+/* -------= variables =------- */
+
+/* -------= logo-block =------- */
+.logo-block {
+    background-color: @logo-block-background;
+    color: @logo-block-text-color;
+    min-height: @logo-block-min-height;
+}
+.logo-block__text {
+    .ubuntu-m;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.logo-block__phone-number {
+    span {
+        .ubuntu-m;
+        font-size: 24px;
+        line-height: 24px;
+        color: @logo-block-text-color;
+    }
+}
+.logo-block__phone-link {
+    a {
+        .ubuntu;
+	    font-size: 14px;
+        text-decoration: underline;
+        color: #54adf1;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+.logo-block__no-left-pad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.logo-block__logoblock__logo {
+    height: @logo-height;           //Внимание здесь задана высота логотипа для сверхмалых экранов
+    position: relative;
+    .logo-block__logo-centered {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        .clearfix;
+    }
+}
+.logo-block__xs-margbot {
+    margin-bottom: 25px;
+}
+.logo-block__lg-margtop {
+    margin-top: 25px;
+}
+.logo-block__lg-margtop-logoimg {
+    margin-top: 10px;
+}
+.logo-block__md-margtop {
+    margin-top: 20px;
+}
+.logo-block__md-margtop-logoimg,
+.logo-block__xs-margtop-logoimg {
+    margin-top: 8px;
+}
+
+/* -------= logo-block =------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

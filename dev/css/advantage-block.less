@@ -1,0 +1,154 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@main-dark-color : #282828;
+@order-info-height: 418px;
+/* -------= variables =------- */
+
+/* -------= advantage-block =------- */
+
+.smallhex-1-img {
+    text-decoration: none !important;
+    .original-order-info2 (@img1: url('../../static/img/advantage-block/1_clock.png'), none, 102px);
+}
+.smallhex-2-img {
+    text-decoration: none !important;
+    .original-order-info2 (@img1: url('../../static/img/advantage-block/2_like.png'), none, 102px);
+}
+.smallhex-3-img {
+    text-decoration: none !important;
+    .original-order-info2 (@img1: url('../../static/img/advantage-block/3_message.png'), none, 102px);
+}
+.smallhex-4-img {
+    text-decoration: none !important;
+    .original-order-info2 (@img1: url('../../static/img/advantage-block/4_shield.png'), none, 102px);
+}
+
+.hex-orderinfo-text {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    .ubuntu-m;
+    font-size: 12px;
+    p {
+        text-align: center;
+        margin-top: 4px;
+    }
+    .hex-orderinfo-text__header {
+        .ubuntu-m;
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .hex-orderinfo-text__simple-text {
+        .ubuntu;
+        font-size: 14px;
+        text-transform: none;
+        margin-bottom: 6px;
+    }
+}
+
+
+
+@media screen and (min-width: 1201px) {
+    .ns_orderinfo__thumbs {
+        min-height: 217px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .ns_orderinfo__thumbs {
+        min-height: 276px;
+    }
+    .ns_orderinfo {
+        min-height: @order-info-height;
+        height: 760px;
+    }
+    .ns_orderinfo_1stback {
+        min-height: 760px;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_2ndback {
+
+        min-height: 760px;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_3rdback {
+        min-height: 760px;
+        max-height:  @order-info-height * 5;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+    .ns_orderinfo__thumbs {
+        min-height: 330px;
+    }
+    .ns_orderinfo {
+        min-height: @order-info-height;
+        height: 860px;
+    }
+    .ns_orderinfo_1stback {
+        min-height: 860px;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_2ndback {
+
+        min-height: 860px;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_3rdback {
+        min-height: 860px;
+        max-height:  @order-info-height * 5;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ns_orderinfo__thumbs {
+        min-height: 217px;
+    }
+    .ns_orderinfo {
+        min-height: @order-info-height * 2.5;
+
+    }
+
+    .ns_orderinfo_1stback {
+        min-height: @order-info-height * 2.5;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_2ndback {
+
+        min-height: @order-info-height * 2.5;
+        max-height:  @order-info-height * 5;
+    }
+    .ns_orderinfo_3rdback {
+        min-height: @order-info-height * 2.5;
+        max-height:  @order-info-height * 5;
+    }
+}
+.order-info-colxs-heitght {
+    min-height: 190px;
+    margin-bottom: 40px;
+}
+.ns_orderinfo__caption-large {
+    text-align: center;
+    text-transform: uppercase;
+    .ubuntu;
+    h2 {
+        font-size: 36px !important;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    margin-top: 78px;
+    margin-bottom: 10px;
+}
+.ns_orderinfo__caption-small {
+    text-align: center;
+    text-transform: uppercase;
+    .ubuntu;
+    h2 {
+        font-size: 18px !important;
+
+    }
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/* -------= advantage-block =------- */

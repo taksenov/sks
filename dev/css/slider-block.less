@@ -1,0 +1,404 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@slider-block-background: #282828;
+@slider-block-height: 500px;
+@slider-block-text: #282828;
+
+/* -------= variables =------- */
+
+/* -------= slider-block =------- */
+//.slider-block {
+//    background-color: @slider-block-background;
+////    min-height: @slider-block-height;
+////    color: @slider-block-text;
+//
+//}
+//.feed-back__text {
+//    color: @feed-back-block-text;
+//}
+
+.carousel-indicators .indicator-white.active {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 10px;
+    -webkit-opacity: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.carousel-indicators .indicator-white {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    background-color: #ffffff;
+    -webkit-opacity: 0.3;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    border: none;
+    margin-right: 10px;
+}
+.slider-block__no-pad-left {
+    padding-left: 0;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1201px) {
+    .q_peopleCarousel {
+        min-height: @slider-block-height;
+        max-height: @slider-block-height;
+        overflow: hidden;
+    }
+
+    .q_peopleCarouselImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-indicators {
+        bottom: 22px;
+    }
+
+    .slider-block__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 58px !important;
+    }
+    .slider-block__header {
+        color: @slider-block-text;
+        .ubuntu;
+        font-size: 44px;
+        text-transform: uppercase;
+        text-shadow: 1px 0 1px @slider-block-text;
+        line-height: 55px;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .slider-block__list {
+        ul {
+            list-style-image: url('../../static/img/slider/slider-list-marker.png'); /* Путь к изображению маркера */
+            padding: 0 0 0 29px !important;
+        }
+        ul li {
+            margin-bottom: 15px;
+
+        }
+        span {
+            text-transform: uppercase;
+            .ubuntu;
+            color: @slider-block-text;
+            text-shadow: none;
+            font-size: 16px;
+        }
+    }
+    .slider-block__link-details {
+
+        /*
+        @width: 68px,              = ширина
+        @height: 28px,             = высота
+        @img: none,                = картинка иконки
+        @bradius: 3px,             = радиус уголков
+        @bg-color: #17709a,        = цвет фона
+        @hover-bg-color: #17709a,  = цвет фона при ховере
+        @font-color: #ffffff       = цвет шрифта
+         */
+        .ubuntu;
+        margin-top: 13px;
+        margin-left: 65px;
+        text-transform: uppercase;
+        .sks-original-button (
+            165px,
+            46px,
+            none,
+            3px,
+            #54adf1,
+            #4994ce,
+            #ffffff,
+            14px
+        )
+
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+
+    .q_peopleCarousel {
+        min-height: @slider-block-height;
+        max-height: @slider-block-height;
+        overflow: hidden;
+
+        img {
+            display: block;
+            height: auto;
+            max-height: @slider-block-height;
+            max-width: none !important;
+        }
+    }
+
+    .q_peopleCarouselImg {
+        height: 100%;
+    }
+    .carousel-indicators {
+        bottom: 22px;
+    }
+    .slider-block__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 58px !important;
+    }
+    .slider-block__header {
+        color: @slider-block-text;
+        .ubuntu;
+        font-size: 44px;
+        text-transform: uppercase;
+        text-shadow: 1px 0 1px @slider-block-text;
+        line-height: 55px;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .slider-block__list {
+        ul {
+            list-style-image: url('../../static/img/slider/slider-list-marker.png'); /* Путь к изображению маркера */
+            padding: 0 0 0 29px !important;
+        }
+        ul li {
+            margin-bottom: 15px;
+
+        }
+        span {
+            text-transform: uppercase;
+            .ubuntu;
+            color: @slider-block-text;
+            text-shadow: none;
+            font-size: 16px;
+        }
+    }
+    .slider-block__link-details {
+
+        /*
+        @width: 68px,              = ширина
+        @height: 28px,             = высота
+        @img: none,                = картинка иконки
+        @bradius: 3px,             = радиус уголков
+        @bg-color: #17709a,        = цвет фона
+        @hover-bg-color: #17709a,  = цвет фона при ховере
+        @font-color: #ffffff       = цвет шрифта
+         */
+        .ubuntu;
+        margin-top: 13px;
+        margin-left: 65px;
+        text-transform: uppercase;
+        .sks-original-button (
+            165px,
+            46px,
+            none,
+            3px,
+            #54adf1,
+            #4994ce,
+            #ffffff,
+            14px
+        )
+
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 993px) {
+
+
+    .q_peopleCarousel {
+        min-height: @slider-block-height;
+        max-height: @slider-block-height;
+        overflow: hidden;
+
+        img {
+            display: block;
+            height: auto;
+            max-height: @slider-block-height;
+            max-width: none !important;
+        }
+    }
+
+    .q_peopleCarouselImg {
+        height: 100%;
+    }
+    .carousel-indicators {
+        bottom: 22px;
+    }
+    .slider-block__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 58px !important;
+    }
+    .slider-block__header {
+        color: @slider-block-text;
+        .ubuntu;
+        font-size: 44px;
+        text-transform: uppercase;
+        text-shadow: 1px 0 1px @slider-block-text;
+        line-height: 55px;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .slider-block__list {
+        ul {
+            list-style-image: url('../../static/img/slider/slider-list-marker.png'); /* Путь к изображению маркера */
+            padding: 0 0 0 29px !important;
+        }
+        ul li {
+            margin-bottom: 15px;
+
+        }
+        span {
+            text-transform: uppercase;
+            .ubuntu;
+            color: @slider-block-text;
+            text-shadow: none;
+            font-size: 16px;
+        }
+    }
+    .slider-block__link-details {
+
+        /*
+        @width: 68px,              = ширина
+        @height: 28px,             = высота
+        @img: none,                = картинка иконки
+        @bradius: 3px,             = радиус уголков
+        @bg-color: #17709a,        = цвет фона
+        @hover-bg-color: #17709a,  = цвет фона при ховере
+        @font-color: #ffffff       = цвет шрифта
+         */
+        .ubuntu;
+        margin-top: 13px;
+        margin-left: 65px;
+        text-transform: uppercase;
+        .sks-original-button (
+            165px,
+            46px,
+            none,
+            3px,
+            #54adf1,
+            #4994ce,
+            #ffffff,
+            14px
+        )
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .q_peopleCarousel {
+        min-height: @slider-block-height;
+        max-height: @slider-block-height;
+        overflow: hidden;
+
+        img {
+            display: block;
+            height: auto;
+            max-height: @slider-block-height;
+            max-width: none !important;
+        }
+    }
+    .q_peopleCarouselImg {
+        min-height: @slider-block-height;
+        height: 100%;
+    }
+    .carousel-indicators {
+        bottom: 22px;
+    }
+    .slider-block__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 58px !important;
+    }
+    .slider-block__header {
+        color: @slider-block-text;
+        .ubuntu;
+        font-size: 28px;
+        text-transform: uppercase;
+        text-shadow: 1px 0 1px @slider-block-text;
+        line-height: 28px;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .slider-block__list {
+        ul {
+            list-style-image: url('../../static/img/slider/slider-list-marker.png'); /* Путь к изображению маркера */
+            padding: 0 0 0 29px !important;
+        }
+        ul li {
+            margin-bottom: 10px;
+
+        }
+        span {
+            text-transform: uppercase;
+            .ubuntu;
+            color: @slider-block-text;
+            text-shadow: none;
+            font-size: 16px;
+        }
+    }
+    .slider-block__link-details {
+
+        /*
+        @width: 68px,              = ширина
+        @height: 28px,             = высота
+        @img: none,                = картинка иконки
+        @bradius: 3px,             = радиус уголков
+        @bg-color: #17709a,        = цвет фона
+        @hover-bg-color: #17709a,  = цвет фона при ховере
+        @font-color: #ffffff       = цвет шрифта
+         */
+        .ubuntu;
+        margin-top: 13px;
+        margin-left: 65px;
+        text-transform: uppercase;
+        .sks-original-button (
+            165px,
+            46px,
+            none,
+            3px,
+            #54adf1,
+            #4994ce,
+            #ffffff,
+            14px
+        )
+
+    }
+}
+/* -------= slider-block =------- */
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@about-company-block-background: #54adf1;
+@about-company-block-height: 584px;
+@about-company-block-text: #ffffff;
+
+/* -------= variables =------- */
+
+/* -------= about-company-block =------- */
+.about-company-block {
+    background-color: @about-company-block-background;
+    min-height: @about-company-block-height;
+}
+.about-company-block {
+    p, h2 {
+        margin: 0;
+        padding: 0;
+    }
+}
+.about-company-block__header {
+    color:  @about-company-block-text;
+    text-transform: uppercase;
+    .ubuntu;
+    font-size: 25px;
+    margin-top: 78px;
+    margin-bottom: 25px;
+}
+.about-company-block__text {
+    color:  @about-company-block-text;
+    .ubuntu;
+    font-size: 16px;
+    margin-bottom: 78px;
+}
+.about-company-block__info-header {
+    color: #3c6a8f;
+    text-transform: uppercase;
+    .ubuntu-m;
+    font-size: 24px;
+    padding-left: 40px;
+}
+.about-company-block__info-list {
+    color:  @about-company-block-text;
+    .ubuntu;
+    font-size: 16px;
+    ul {
+        list-style-image: url('../../static/img/about-company/ul-arrow.png'); /* Путь к изображению маркера */
+    }
+}
+.about-company-block__link {
+    color: @about-company-block-text;
+    text-decoration: underline;
+    &:hover {
+        color: @about-company-block-text;
+        text-decoration: none;
+    }
+}
+.about-company-block__container-for-dots {
+    position: relative;
+}
+.about-company-block__dots-lg {
+    position: absolute;
+    top: 321px;
+    left: 122px;
+    background: url('../../static/img/about-company/dots_long.png') center center no-repeat;
+    width: 927px;
+    height: 3px;
+    z-index: 1;
+}
+.about-company-block__dots-md {
+    position: absolute;
+    top: 353px;
+    left: 161px;
+    background: url('../../static/img/about-company/dots_md.png') center center no-repeat;
+    width: 652px;
+    height: 3px;
+    z-index: 1;
+}
+.about-company-block__dots-sm {
+    position: absolute;
+    top: 404px;
+    left: 50px;
+    background: url('../../static/img/about-company/dots_sm.png') center center no-repeat;
+    width: 652px;
+    height: 3px;
+    z-index: 1;
+}
+
+/* -------= about-company-block =------- */
+
+
+
+
+
+
+
+
+
+
+

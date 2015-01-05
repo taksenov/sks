@@ -1,0 +1,78 @@
+/* примесь для инфо меню */
+.original-service-info (@img1: none, @img2: none, @height: 158px) {
+    text-align: center;
+    .inlineblock;
+    padding: 0;
+    border: 0 none;
+    text-decoration: none;
+    .transition(0.2s);
+//    line-height: @slider-height;
+    color: @main-dark-color;
+    font-size: 18px;
+    .ubuntu-m;
+    text-transform: uppercase;
+    display: block;
+    height: @height;
+    width: 100%;
+
+    &:before {
+        content: "";
+        width: 158px;
+        height: @height;
+        .inlineblock;
+        background: @img1 center center no-repeat;
+    }
+
+    &:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 158px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }
+}
+
+.original-order-info2 (@img1: none, @img2: none, @height: 102px) {
+    text-align: center;
+    .inlineblock;
+    padding: 0;
+    border: 0 none;
+    text-decoration: none;
+    .transition(0.2s);
+//    line-height: @slider-height;
+    color: @main-dark-color;
+    font-size: 18px;
+    .ubuntu-m;
+    text-transform: uppercase;
+    display: block;
+    height: @height;
+    width: 100%;
+
+    &:before {
+        content: "";
+        width: 102px;
+        height: @height;
+        .inlineblock;
+        background: @img1 center center no-repeat;
+    }
+
+    /*&:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 102px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }*/
+}

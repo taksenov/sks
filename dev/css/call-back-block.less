@@ -1,0 +1,125 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@call-back-block-background: #54adf1;
+@call-back-block-height: 100px;
+@call-back-block-text: #ffffff;
+
+/* -------= variables =------- */
+
+/* -------= call-back-block =------- */
+.call-back-block {
+    background-color: @call-back-block-background;
+    min-height: @call-back-block-height;
+}
+.call-back-block {
+    p, h2 {
+        margin: 0;
+        padding: 0;
+    }
+}
+.call-back-block__text-lg {
+    margin-top: 38px;
+    color: @call-back-block-text;
+    .ubuntu-m;
+    font-size: 24px;
+    span.call-back-block__text-phone {
+        .ubuntu-b;
+    }
+}
+.call-back-block__text-middle {
+    margin-top: 18px;
+    color: @call-back-block-text;
+    .ubuntu-m;
+    font-size: 24px;
+    span.call-back-block__text-phone {
+        .ubuntu-b;
+    }
+}
+.call-back-block__text-xs {
+    margin-top: 38px;
+    color: @call-back-block-text;
+    .ubuntu-m;
+    font-size: 24px;
+    span.call-back-block__text-phone {
+        .ubuntu-b;
+    }
+}
+.sks-original-button-border (@width: 68px, @height: 28px, @img: none, @bradius: 3px, @bg-color: #17709a, @hover-bg-color: #17709a, @font-color: #ffffff, @font-size: 12px) {
+	width: @width;
+    height: @height;
+    text-align: center;
+    .border-radius(@bradius);
+    background-color: @bg-color;
+    .inlineblock;
+    padding: 0;
+    text-decoration: none;
+    .transition(0.2s);
+    line-height: @height;
+    color: @font-color;
+    font-size: @font-size;
+    border: 1px solid #ffffff;
+    //.ubuntu-b;
+
+    &:before {
+        content: "";
+        width: 25px;
+        height: @height;
+        .inlineblock;
+        background: @img center center no-repeat;
+    }
+
+    &:hover {
+        opacity: 0.9;
+        background-color: @hover-bg-color;
+        text-decoration: none;
+        color: #54adf1;
+    }
+}
+.sks-original-button-border (@width, @height, @img, @bradius, @bg-color, @hover-bg-color, @font-color, @font-size) when (@img = none) {
+    &:before {
+        display: none;
+    }
+}
+
+.call-back__order-button {
+    /*
+    @width: 68px,              = ширина
+    @height: 28px,             = высота
+    @img: none,                = картинка иконки
+    @bradius: 3px,             = радиус уголков
+    @bg-color: #17709a,        = цвет фона
+    @hover-bg-color: #17709a,  = цвет фона при ховере
+    @font-color: #ffffff       = цвет шрифта
+     */
+    .ubuntu;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    .sks-original-button-border (
+        165px,
+        46px,
+        none,
+        3px,
+        transparent,
+        #ffffff,
+        #ffffff,
+        14px
+    )
+}
+/* -------= call-back-block =------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
