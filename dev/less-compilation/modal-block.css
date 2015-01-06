@@ -158,7 +158,6 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
-/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -167,8 +166,6 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
-/* -------= Примесь для кнопки =------- */
-/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -242,7 +239,6 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
-/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -400,12 +396,17 @@
     background-color: #414141;
   }
 }
-/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
 /* -------= advantage-block =------- */
+.q__margbot35 {
+  margin-bottom: 35px !important;
+}
+.q__margbot50 {
+  margin-bottom: 50px !important;
+}
 .smallhex-1-img {
   text-decoration: none !important;
   text-align: center;
@@ -699,13 +700,12 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Ubuntu';
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 75px;
+  margin-bottom: 25px;
 }
 .ns_orderinfo__caption-small h2 {
-  font-size: 18px !important;
+  font-size: 32px !important;
 }
-/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -825,7 +825,6 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
-/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1029,7 +1028,6 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1186,7 +1184,6 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
-/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1269,7 +1266,163 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= about-company-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= individual-approach-block =------- */
+/* -------= free-help-block =------- */
+.individual-approach-block {
+  background: url('../../static/img/individual-approach/individual-background.png') no-repeat center center /*fixed*/;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 504px;
+}
+.individual-approach-block__order-button {
+  /*
+    @width: 68px,              = ширина
+    @height: 28px,             = высота
+    @img: none,                = картинка иконки
+    @bradius: 3px,             = радиус уголков
+    @bg-color: #17709a,        = цвет фона
+    @hover-bg-color: #17709a,  = цвет фона при ховере
+    @font-color: #ffffff       = цвет шрифта
+     */
+  font-family: 'Ubuntu';
+  text-transform: uppercase;
+  width: 257px;
+  height: 46px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #54adf1;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  line-height: 46px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.individual-approach-block__order-button:before {
+  content: "";
+  width: 25px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: none center center no-repeat;
+}
+.individual-approach-block__order-button:hover {
+  opacity: 0.9;
+  background-color: #4994ce;
+  text-decoration: none;
+  color: #ffffff;
+}
+.individual-approach-block__order-button:before {
+  display: none;
+}
+.individual-approach__main-header {
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 54px;
+  margin-top: 135px !important;
+  margin-bottom: 19px !important;
+  color: #0b060f;
+}
+.individual-approach__h3-header {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  margin-bottom: 27px !important;
+  color: #0b060f;
+}
+.individual-approach__main-header-xs {
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 32px;
+  margin-top: 100px !important;
+  margin-bottom: 25px !important;
+  color: #0b060f;
+}
+.individual-approach-block h2,
+.individual-approach-block h3 {
+  margin: 0;
+  padding: 0;
+}
+.individual-approach__order-button {
+  /*
+    @width: 68px,              = ширина
+    @height: 28px,             = высота
+    @img: none,                = картинка иконки
+    @bradius: 3px,             = радиус уголков
+    @bg-color: #17709a,        = цвет фона
+    @hover-bg-color: #17709a,  = цвет фона при ховере
+    @font-color: #ffffff       = цвет шрифта
+     */
+  font-family: 'Ubuntu';
+  margin-top: 89px;
+  text-transform: uppercase;
+  width: 165px;
+  height: 46px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #54adf1;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  line-height: 46px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.individual-approach__order-button:before {
+  content: "";
+  width: 25px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: none center center no-repeat;
+}
+.individual-approach__order-button:hover {
+  opacity: 0.9;
+  background-color: #4994ce;
+  text-decoration: none;
+  color: #ffffff;
+}
+.individual-approach__order-button:before {
+  display: none;
+}
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1370,7 +1523,6 @@
 .call-back__order-button:before {
   display: none;
 }
-/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1432,36 +1584,53 @@
   font-size: 12px;
 }
 .footer__social-icon-1 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/vk_1.png') center center no-repeat;
 }
 .footer__social-icon-1:hover {
   background: url('../../static/img/footer/vk_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-2 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/fb_1.png') center center no-repeat;
 }
 .footer__social-icon-2:hover {
   background: url('../../static/img/footer/fb_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-3 {
+  line-height: 23px;
+  vertical-align: middle;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/twi_1.png') center center no-repeat;
 }
 .footer__social-icon-3:hover {
   background: url('../../static/img/footer/twi_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-4 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/inst_1.png') center center no-repeat;
 }
 .footer__social-icon-4:hover {
   background: url('../../static/img/footer/inst_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer-block__social {
   *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
@@ -1531,7 +1700,6 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
-/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1541,9 +1709,19 @@
   background-color: #282828;
   min-height: 357px;
   color: #ffffff;
+  position: relative;
 }
 .feed-back__text {
   color: #ffffff;
+}
+.about-company__margbot50 {
+  margin-bottom: 50px;
+}
+.feed-back__margtop30-xs {
+  margin-top: 30px;
+}
+.feed-back__margbot30-xs {
+  margin-bottom: 30px;
 }
 /* -------= медиазапросы для слайдера фидбека =------- */
 /* большие экраны */
@@ -1592,14 +1770,17 @@
   .feed-back__left-quote {
     padding: 0 !important;
     margin-top: -20px;
+    position: absolute;
+    top: 131px;
+    left: 37px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 114px;
+    left: 1058px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1667,15 +1848,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 817px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1694,7 +1877,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -25px;
+    bottom: -31px !important;
   }
 }
 /* средние экраны */
@@ -1743,15 +1926,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 581px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1770,7 +1955,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -65px;
+    bottom: -80px !important;
   }
 }
 /* малые экраны */
@@ -1824,13 +2009,11 @@
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1852,9 +2035,6 @@
     bottom: -65px;
   }
 }
-/* телефоны */
-/* -------= медиазапросы для слайдера фидбека =------- */
-/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1909,7 +2089,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -1945,6 +2125,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2020,7 +2201,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2056,6 +2237,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2131,7 +2313,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2167,6 +2349,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2243,7 +2426,7 @@
     font-family: 'Ubuntu';
     font-size: 28px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 28px;
   }
   .slider-block__header h2 {
@@ -2279,6 +2462,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2323,81 +2507,6 @@
   }
   .slider-block__link-details:before {
     display: none;
-  }
-}
-/* -------= slider-block =------- */
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
-}
-.modal-title__custom {
-  text-transform: uppercase;
-  font-family: 'Ubuntu-Medium';
-  font-size: 18px;
-}
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
-  font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
-}
-.modal-header__custom {
-  border-bottom: none;
-}
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
-}
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
-}
-.btn-primary__custom:hover {
-  background-color: #4994ce;
-}
-.alert-danger__custom {
-  text-align: center;
-}
-@media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2872,162 +2981,76 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
 /* -------= call-back-block =------- */
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= individual-approach-block =------- */
-/* -------= free-help-block =------- */
-.individual-approach-block {
-  background: url('../../static/img/individual-approach/individual-background.png') no-repeat center center /*fixed*/;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  min-height: 504px;
+.modal-block__custom {
+  border-radius: 0;
 }
-.individual-approach-block__order-button {
-  /*
-    @width: 68px,              = ширина
-    @height: 28px,             = высота
-    @img: none,                = картинка иконки
-    @bradius: 3px,             = радиус уголков
-    @bg-color: #17709a,        = цвет фона
-    @hover-bg-color: #17709a,  = цвет фона при ховере
-    @font-color: #ffffff       = цвет шрифта
-     */
-  font-family: 'Ubuntu';
+.modal-title__custom {
   text-transform: uppercase;
-  width: 257px;
-  height: 46px;
-  text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #54adf1;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  line-height: 46px;
-  color: #ffffff;
-  font-size: 14px;
-}
-.individual-approach-block__order-button:before {
-  content: "";
-  width: 25px;
-  height: 46px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: none center center no-repeat;
-}
-.individual-approach-block__order-button:hover {
-  opacity: 0.9;
-  background-color: #4994ce;
-  text-decoration: none;
-  color: #ffffff;
-}
-.individual-approach-block__order-button:before {
-  display: none;
-}
-.individual-approach__main-header {
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 54px;
-  margin-top: 135px !important;
-  margin-bottom: 19px !important;
-  color: #0b060f;
-}
-.individual-approach__h3-header {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu-Medium';
   font-size: 18px;
-  margin-bottom: 27px !important;
-  color: #0b060f;
 }
-.individual-approach__main-header-xs {
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 25px;
-  margin-top: 100px !important;
-  margin-bottom: 25px !important;
-  color: #0b060f;
-}
-.individual-approach-block h2,
-.individual-approach-block h3 {
-  margin: 0;
-  padding: 0;
-}
-.individual-approach__order-button {
-  /*
-    @width: 68px,              = ширина
-    @height: 28px,             = высота
-    @img: none,                = картинка иконки
-    @bradius: 3px,             = радиус уголков
-    @bg-color: #17709a,        = цвет фона
-    @hover-bg-color: #17709a,  = цвет фона при ховере
-    @font-color: #ffffff       = цвет шрифта
-     */
-  font-family: 'Ubuntu';
-  margin-top: 89px;
-  text-transform: uppercase;
-  width: 165px;
-  height: 46px;
+.form-control__custom {
   text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #54adf1;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  line-height: 46px;
-  color: #ffffff;
-  font-size: 14px;
-}
-.individual-approach__order-button:before {
-  content: "";
-  width: 25px;
+  width: 252px;
   height: 46px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: none center center no-repeat;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
 }
-.individual-approach__order-button:hover {
-  opacity: 0.9;
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
   background-color: #4994ce;
-  text-decoration: none;
-  color: #ffffff;
 }
-.individual-approach__order-button:before {
-  display: none;
+.alert-danger__custom {
+  text-align: center;
 }
-/* -------= individual-approach-block =------- */
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
+  }
+}

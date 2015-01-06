@@ -12,13 +12,15 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="dev/css/bootstrap.css">
-        <link rel="stylesheet" href="dev/css/normalize.css">
+        <link rel="stylesheet" href="app/css/bootstrap.css">
+        <link rel="stylesheet" href="app/css/normalize.css">
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="app/css/font-awesome.min.css">
 
 
         <!-- LESS убрать в продекшене -->
-        <!--<link rel="stylesheet" href="app/css/bundle.css">-->
-		<link  href="dev/css/main.less" rel="stylesheet/less" type="text/css">
+        <link rel="stylesheet" href="app/css/bundle.css">
+<!--		<link  href="dev/css/main.less" rel="stylesheet/less" type="text/css">-->
 
 
     </head>
@@ -238,7 +240,7 @@
                                         </ul>
                                     </div>
                                     <div class="slider-block__link">
-                                        <a href="" class="slider-block__link-details">Подробнее</a>
+                                        <a href="" class="slider-block__link-details doit" data-toggle="modal">Подробнее</a>
                                     </div>
 
                                 </div>
@@ -291,7 +293,7 @@
                                         </ul>
                                     </div>
                                     <div class="slider-block__link">
-                                        <a href="" class="slider-block__link-details">Подробнее</a>
+                                        <a href="" class="slider-block__link-details doit" data-toggle="modal">Подробнее</a>
                                     </div>
 
                                 </div>
@@ -304,17 +306,6 @@
                 </div>
 
             </div>
-
-            <!-- Controls -->
-    <!--                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>-->
-
         </div>
         <!-- slider-block -->
 
@@ -323,7 +314,7 @@
             <div class="container">
 
                 <!-- показ на всех экранах кроме телефона -->
-                <div class="row ns_orderinfo__caption-large hidden-xs">
+                <div class="row ns_orderinfo__caption-large hidden-xs q__margbot35">
                     <div class="col-sm-12 col-md-12 col-lg-12 hidden-xs">
 
                         <h2>
@@ -334,7 +325,7 @@
                 </div> <!-- показ на всех экранах кроме телефона -->
 
                 <!-- показ на телефонах (уменьшена высота блока) -->
-                <div class="row ns_orderinfo__caption-small">
+                <div class="row ns_orderinfo__caption-small hidden-sm hidden-md hidden-lg">
                     <div class="col-xs-12 visible-xs">
 
                         <h2>
@@ -343,7 +334,7 @@
                     </div>
                 </div> <!-- показ на телефонах (уменьшена высота блока) -->
 
-                <div class="row ns_orderinfo__thumbs hidden-xs">
+                <div class="row ns_orderinfo__thumbs hidden-xs about-company__margbot50">
                     <!-- показ на всех экранах кроме телефонов-->
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <div class="smallhex-1-img">
@@ -430,7 +421,7 @@
 
                 <!-- отображение только на телефонах -->
 
-							<div class="row hidden-sm hidden-md hidden-lg">
+							<div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
 								<div class="col-xs-12 order-info-colxs-heitght">
 									<div class="smallhex-1-img">
 										<div class="hex-pencil-img">
@@ -655,7 +646,7 @@
                             <!-- отображение на всех устройствах кроме телефонов -->
 
                             <!-- отображение только на телефонах -->
-                            <div class="button-hover">
+                            <div class="button-hover about-company__margbot50">
                                 <a href="">
                                     <div class="col-xs-12 col-sm-12 col-md-12 service-light hidden-lg">
                                         <div class="row">
@@ -690,7 +681,7 @@
             <div class="container">
 
                 <!-- показ на всех экранах кроме телефона -->
-                <div class="row ns_orderinfo__caption-large hidden-xs how-works-block__header-text">
+                <div class="row ns_orderinfo__caption-large hidden-xs how-works-block__header-text q__margbot35">
                     <div class="col-sm-12 col-md-12 col-lg-12 hidden-xs">
 
                         <h2>
@@ -702,7 +693,7 @@
                 <!-- показ на всех экранах кроме телефона -->
 
                 <!-- показ на телефонах (уменьшена высота блока) -->
-                <div class="row ns_orderinfo__caption-small how-works-block__header-text">
+                <div class="row ns_orderinfo__caption-small how-works-block__header-text hidden-sm hidden-md hidden-lg">
                     <div class="col-xs-12 visible-xs">
 
                         <h2>
@@ -724,7 +715,7 @@
                             <div class="col-lg-12 text-center">
                                 <span class="how-works__text">
                                     Позвоните нам или
-                                    <a href="">заполните анкету</a>
+                                    <a href="" class="doit" data-toggle="modal">заполните анкету</a>
                                 </span>
                             </div>
                         </div>
@@ -815,7 +806,7 @@
                             <div class="col-md-12 text-center">
                                 <span class="how-works__text">
                                     Позвоните нам или
-                                    <a href="">заполните анкету</a>
+                                    <a href="" class="doit" data-toggle="modal">заполните анкету</a>
                                 </span>
                             </div>
                         </div>
@@ -894,7 +885,7 @@
                 <!-- отображение только на средних экранах -->
 
                 <!-- отображение только на малых экранах -->
-                <div class="row hidden-xs hidden-md hidden-lg how-works__container-for-dots">
+                <div class="row hidden-xs hidden-md hidden-lg how-works__container-for-dots q__margbot50">
 
                     <div class="dots-1-sm"></div>
                     <div class="col-sm-2">
@@ -905,7 +896,7 @@
                             <div class="col-sm-12 text-center">
                                 <span class="how-works__text">
                                     Позвоните нам или
-                                    <a href="">заполните анкету</a>
+                                    <a href="" class="doit" data-toggle="modal">заполните анкету</a>
                                 </span>
                             </div>
                         </div>
@@ -992,10 +983,10 @@
                             <div class="col-sm-12 step-1__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Позвоните нам или
-                                    <a href="">заполните анкету</a>
+                                    <a href="" class="doit" data-toggle="modal">заполните анкету</a>
                                 </span>
                             </div>
                         </div>
@@ -1007,7 +998,7 @@
                             <div class="col-sm-12 step-2__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Расскажите свою ситуацию
                                 </span>
@@ -1021,7 +1012,7 @@
                             <div class="col-sm-12 step-3__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Мы предложим варианты решения
                                 </span>
@@ -1035,7 +1026,7 @@
                             <div class="col-sm-12 step-4__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Подписание договора
                                 </span>
@@ -1049,7 +1040,7 @@
                             <div class="col-sm-12 step-5__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Получение готовых документов на электронную почту
                                 </span>
@@ -1057,12 +1048,12 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 about-company__margbot50">
                         <div class="row">
                             <div class="col-sm-12 step-6__image step-image__margbot">
 
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-12 text-center step-image__margbot">
                                 <span class="how-works__text">
                                     Получение оригиналов документов по почте через 3-5 дней
                                 </span>
@@ -1123,7 +1114,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12 text-center">
-                        <a href="" class="free-help__order-button">Подробнее</a>
+                        <a href="" class="free-help__order-button doit" data-toggle="modal">Подробнее</a>
                     </div>
 
                 </div>
@@ -1153,7 +1144,7 @@
                 </div> <!-- показ на всех экранах кроме телефона -->
 
                 <!-- показ на телефонах (уменьшена высота блока) -->
-                <div class="row ns_orderinfo__caption-small">
+                <div class="row ns_orderinfo__caption-small hidden-sm hidden-md hidden-lg">
                     <div class="col-xs-12 visible-xs">
 
                         <h2>
@@ -1256,7 +1247,7 @@
                 </div><!-- отображение на больших, сркедних и малых экранах -->
 
                 <!-- отображние только на телефонах -->
-                <div class="row hidden-sm hidden-md hidden-lg">
+                <div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
                     <div class="col-xs-12 geografy-block__towns">
                         <ul>
                             <li>Архангельск</li>
@@ -1323,64 +1314,148 @@
                     <div class="about-company-block__dots-sm hidden-xs hidden-md hidden-lg"></div>
                     <div class="about-company-block__dots-xs hidden-sm hidden-md hidden-lg"></div>
 
+                    <div class="row hidden-xs">
 
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-company-block__info-header">
-                            Для опытных строителей
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                Для опытных строителей
+                            </div>
                         </div>
-                        <div class="about-company-block__info-list">
-                            <ul>
-                                <li>
-                                    <a href="" class="about-company-block__link">Лицензирование</a>
-                                </li>
-                                <li>
-                                    Срочная подготовка документации для участия в тендере
-                                </li>
-                                <li>
-                                    Cертификация
-                                </li>
-                            </ul>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+                            </div>
                         </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                ДЛЯ ТЕХ, КТО ХОЧЕТ СДЕЛАТЬ ВСЕ САМ
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-company-block__info-header">
-                            ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+
+                    <div class="row hidden-xs about-company__margbot50">
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        <a href="" class="about-company-block__link">Лицензирование</a>
+                                    </li>
+                                    <li>
+                                        Срочная подготовка документации для участия в тендере
+                                    </li>
+                                    <li>
+                                        Cертификация
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="about-company-block__info-list">
-                            <ul>
-                                <li>
-                                    Создание компании
-                                </li>
-                                <li>
-                                    Допуски, сертификаты, лицензии
-                                </li>
-                                <li>
-                                    Продажа готовых компаний с документацией
-                                </li>
-                            </ul>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        Создание компании
+                                    </li>
+                                    <li>
+                                        Допуски, сертификаты, лицензии
+                                    </li>
+                                    <li>
+                                        Продажа готовых компаний с документацией
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        Подготовка документации для участия в тендере
+                                    </li>
+                                    <li>
+                                        Пожарная лицензия
+                                    </li>
+                                    <li>
+                                        Еще какая-нибудь ситуация
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-company-block__info-header">
-                            ДЛЯ ТЕХ, КТО ХОЧЕТ СДЕЛАТЬ ВСЕ САМ
+
+                    <div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                Для опытных строителей
+                            </div>
                         </div>
-                        <div class="about-company-block__info-list">
-                            <ul>
-                                <li>
-                                    Подготовка документации для участия в тендере
-                                </li>
-                                <li>
-                                    Пожарная лицензия
-                                </li>
-                                <li>
-                                    Еще какая-нибудь ситуация
-                                </li>
-                            </ul>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        <a href="" class="about-company-block__link">Лицензирование</a>
+                                    </li>
+                                    <li>
+                                        Срочная подготовка документации для участия в тендере
+                                    </li>
+                                    <li>
+                                        Cертификация
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        Создание компании
+                                    </li>
+                                    <li>
+                                        Допуски, сертификаты, лицензии
+                                    </li>
+                                    <li>
+                                        Продажа готовых компаний с документацией
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-header">
+                                ДЛЯ ТЕХ, КТО ХОЧЕТ СДЕЛАТЬ ВСЕ САМ
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li>
+                                        Подготовка документации для участия в тендере
+                                    </li>
+                                    <li>
+                                        Пожарная лицензия
+                                    </li>
+                                    <li>
+                                        Еще какая-нибудь ситуация
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
                     </div>
+
 
                 </div>
-
             </div>
         </section>
         <!-- about-company-block -->
@@ -1394,6 +1469,12 @@
                         <h2 class="text-center">
                             Отзывы
                         </h2>
+                    </div>
+                    <div class="feed-back__left-quote hidden-xs">
+                        <img src="static/img/feed-back/left-quote.png" alt=""/>
+                    </div>
+                    <div class="feed-back__right-quote hidden-xs">
+                        <img src="static/img/feed-back/right-quote.png" alt=""/>
                     </div>
                 </div>
 
@@ -1417,7 +1498,7 @@
 
                                 <!-- отображение только на больших экранах -->
                                 <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__left-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 "></div>
                                     <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
                                         This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
@@ -1429,7 +1510,7 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__right-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 "></div>
                                 </div>
                                 <div class="row hidden-xs">
                                     <div class="col-lg-12 text-center feed-back__author">
@@ -1449,7 +1530,7 @@
                             <div class="carousel-caption feed-back__no-carousel-paddings">
                                 <!-- отображение только на больших экранах -->
                                 <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__left-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                     <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
                                         This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
@@ -1461,7 +1542,7 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__right-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                 </div>
                                 <div class="row hidden-xs">
                                     <div class="col-lg-12 text-center feed-back__author">
@@ -1479,7 +1560,7 @@
                             <div class="carousel-caption feed-back__no-carousel-paddings">
                                 <!-- отображение только на больших экранах -->
                                 <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__left-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                     <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
                                         This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
@@ -1491,7 +1572,7 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__right-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                 </div>
                                 <div class="row hidden-xs">
                                     <div class="col-lg-12 text-center feed-back__author">
@@ -1509,7 +1590,7 @@
                             <div class="carousel-caption feed-back__no-carousel-paddings">
                                 <!-- отображение только на больших экранах -->
                                 <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__left-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                     <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
                                         This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
@@ -1521,7 +1602,7 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__right-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                 </div>
                                 <div class="row hidden-xs">
                                     <div class="col-lg-12 text-center feed-back__author">
@@ -1539,7 +1620,7 @@
                             <div class="carousel-caption feed-back__no-carousel-paddings">
                                 <!-- отображение только на больших экранах -->
                                 <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__left-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                     <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
                                         This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
@@ -1551,7 +1632,7 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 feed-back__right-quote"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                 </div>
                                 <div class="row hidden-xs">
                                     <div class="col-lg-12 text-center feed-back__author">
@@ -1565,21 +1646,11 @@
                             </div>
                         </div>
                     </div>
-
-                <!-- Controls -->
-<!--                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>-->
                 </div>
                 <!-- слайдер отображается на всех экранах кроме телефонов -->
 
                 <!-- отображение только на телефонах, без слайдера -->
-                <div class="row hidden-sm hidden-md hidden-lg">
+                <div class="row hidden-sm hidden-md hidden-lg feed-back__margbot30-xs feed-back__margtop30-xs">
 
                     <div class="col-xs-12 feed-back__main-text text-center">
                         This is Photoshop's version  of Lorem Ipsum.
@@ -1594,7 +1665,7 @@
                     </div>
 
                 </div>
-                <div class="row hidden-sm hidden-md hidden-lg">
+                <div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
                     <div class="col-xs-12 text-center feed-back__author">
                         Кононов Александр Анатольевич
                     </div>
@@ -1624,7 +1695,7 @@
                     <!-- отображение только на телефонах -->
                     <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
                         <h2 class="individual-approach__main-header-xs">
-                            ИНДИВИДУАЛЬНЫЙ ПОДХОД
+                            ИНДИ<wbr>ВИДУАЛЬ<wbr>НЫЙ ПОДХОД
                         </h2>
                     </div>
                     <!-- отображение только на телефонах -->
@@ -1709,7 +1780,9 @@
         <!-- footer-block -->
         <section class="footer-block">
             <div class="container">
-                <div class="row">
+
+                <!-- большие и средние экраны -->
+                <div class="row hidden-xs hidden-sm">
                     <!-- отображение на больших и среднх экранах, кроме телефонов -->
                     <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
@@ -1719,6 +1792,77 @@
                                     <span>Услуги</span>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header dark_dot">
+                                    <span>.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header">
+                                    <span>Полезные ссылки</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="footer-block__header dark_dot">
+                                    <span>.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header">
+                                    <span>Контакты</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header">
+                                    <span>Мы в соц. сетях</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row hidden-xs hidden-sm">
+<!-- ================================================================================          -->
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
@@ -1747,18 +1891,11 @@
                                 </div>
                             </div>
 
-
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="footer-block__header dark_dot">
-                                    <span>.</span>
-                                </div>
-                            </div>
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
@@ -1794,11 +1931,6 @@
                         <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="footer-block__header">
-                                    <span>Полезные ссылки</span>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
                                         <li>
@@ -1832,11 +1964,6 @@
                         <div class="row">
 
                             <div class="col-lg-12">
-                                <div class="footer-block__header dark_dot">
-                                    <span>.</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
                                         <li>
@@ -1862,18 +1989,13 @@
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
 
                         <div class="row">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="footer-block__header">
-                                    <span>Контакты</span>
-                                </div>
-                            </div>
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__address">
@@ -1914,17 +2036,12 @@
 
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="footer-block__header">
-                                    <span>Мы в соц. сетях</span>
-                                </div>
-                            </div>
 
                             <!-- не отображать на средних разрешениях -->
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-md">
@@ -1932,22 +2049,34 @@
                                     <ul>
                                         <li class="fotter__list-social-icon">
                                             <a href="">
-                                                <div class="footer__social-icon-1"></div>
+                                                <div class="footer__social-icon-1">
+                                                    <i class="fa fa-vk"></i>
+
+                                                </div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon">
                                             <a href="">
-                                                <div class="footer__social-icon-2"></div>
+                                                <div class="footer__social-icon-2">
+                                                    <i class="fa fa-facebook"></i>
+
+                                                </div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon">
                                             <a href="">
-                                                <div class="footer__social-icon-3"></div>
+                                                <div class="footer__social-icon-3">
+                                                    <i class="fa fa-twitter"></i>
+
+                                                </div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon">
                                             <a href="">
-                                                <div class="footer__social-icon-4"></div>
+                                                <div class="footer__social-icon-4">
+                                                    <i class="fa fa-instagram"></i>
+
+                                                </div>
                                             </a>
                                         </li>
                                     </ul>
@@ -1961,22 +2090,22 @@
                                     <ul>
                                         <li class="fotter__list-social-icon-md">
                                             <a href="">
-                                                <div class="footer__social-icon-1"></div>
+                                                <div class="footer__social-icon-1"><i class="fa fa-vk"></i></div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon-md">
                                             <a href="">
-                                                <div class="footer__social-icon-2"></div>
+                                                <div class="footer__social-icon-2"><i class="fa fa-facebook"></i></div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon-md">
                                             <a href="">
-                                                <div class="footer__social-icon-3"></div>
+                                                <div class="footer__social-icon-3"><i class="fa fa-twitter"></i></div>
                                             </a>
                                         </li>
                                         <li class="fotter__list-social-icon-md">
                                             <a href="">
-                                                <div class="footer__social-icon-4"></div>
+                                                <div class="footer__social-icon-4"><i class="fa fa-instagram"></i></div>
                                             </a>
                                         </li>
                                     </ul>
@@ -1984,14 +2113,15 @@
                             </div>
                             <!-- отображать на средних разрешениях -->
 
-
                         </div>
                     </div>
-                    <!-- отображение на больших и среднх экранах, кроме телефонов -->
 
+                </div>
+                <!-- большие и средние экраны -->
 
-                    <!-- отображене только на телефонах -->
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                <!-- только малые экраны -->
+                <div class="row hidden-xs hidden-md hidden-lg">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -1999,6 +2129,27 @@
                                     <span>Услуги</span>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header dark_dot">
+                                    <span>.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row hidden-xs hidden-md hidden-lg">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
@@ -2027,11 +2178,10 @@
                                 </div>
                             </div>
 
-
                         </div>
                     </div>
 
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -2063,8 +2213,11 @@
 
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                <!-- ================================ -->
+                <div class="row hidden-xs hidden-md hidden-lg">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -2072,6 +2225,29 @@
                                     <span>Полезные ссылки</span>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="footer-block__header dark_dot">
+                                    <span>.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row hidden-xs hidden-md hidden-lg">
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
@@ -2102,7 +2278,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
 
                             <div class="col-lg-12">
@@ -2131,10 +2307,16 @@
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                </div>
+
+                <!-- ======================= -->
+
+                <div class="row hidden-xs hidden-md hidden-lg">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
 
                         <div class="row">
 
@@ -2143,6 +2325,29 @@
                                     <span>Контакты</span>
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="footer-block__header">
+                                    <span>Мы в соц. сетях</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row hidden-xs hidden-md hidden-lg q__margbot50">
+
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
+
+                        <div class="row">
 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__address">
@@ -2181,61 +2386,330 @@
                                         </li>
                                     </ul>
 
-
-
-
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="col-sm-6 col-md-2 col-lg-2 hidden-xs">
                         <div class="row">
 
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="footer-block__header-xs">
-                                    <span>Мы в соц. сетях</span>
+                            <!-- не отображать на средних разрешениях -->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-md">
+                                <div class="footer-block__social">
+                                    <ul>
+                                        <li class="fotter__list-social-icon">
+                                            <a href="">
+                                                <div class="footer__social-icon-1"><i class="fa fa-vk"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon">
+                                            <a href="">
+                                                <div class="footer__social-icon-2"><i class="fa fa-facebook"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon">
+                                            <a href="">
+                                                <div class="footer__social-icon-3"><i class="fa fa-twitter"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon">
+                                            <a href="">
+                                                <div class="footer__social-icon-4"><i class="fa fa-instagram"></i></div>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                            <!-- не отображать на средних разрешениях -->
 
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <div class="footer-block__social-xs">
-
-                                    <div class="position-block">
-                                        <div class="main-social-list">
-                                            <ul >
-                                                <li class="fotter__list-social-icon">
-                                                    <a href="">
-                                                        <div class="footer__social-icon-1"></div>
-                                                    </a>
-                                                </li>
-                                                <li class="fotter__list-social-icon">
-                                                    <a href="">
-                                                        <div class="footer__social-icon-2"></div>
-                                                    </a>
-                                                </li>
-                                                <li class="fotter__list-social-icon">
-                                                    <a href="">
-                                                        <div class="footer__social-icon-3"></div>
-                                                    </a>
-                                                </li>
-                                                <li class="fotter__list-social-icon-last">
-                                                    <a href="">
-                                                        <div class="footer__social-icon-4"></div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
+                            <!-- отображать на средних разрешениях -->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-xs hidden-sm hidden-lg">
+                                <div class="footer-block__social">
+                                    <ul>
+                                        <li class="fotter__list-social-icon-md">
+                                            <a href="">
+                                                <div class="footer__social-icon-1"><i class="fa fa-vk"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon-md">
+                                            <a href="">
+                                                <div class="footer__social-icon-2"><i class="fa fa-facebook"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon-md">
+                                            <a href="">
+                                                <div class="footer__social-icon-3"><i class="fa fa-twitter"></i></div>
+                                            </a>
+                                        </li>
+                                        <li class="fotter__list-social-icon-md">
+                                            <a href="">
+                                                <div class="footer__social-icon-4"><i class="fa fa-instagram"></i></div>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
+                            <!-- отображать на средних разрешениях -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- только малые экраны -->
+
+
+
+
+
+                <!-- отображене только на телефонах -->
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__header">
+                                <span>Услуги</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__list">
+                                <ul>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 5
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 6
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 7
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 8
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__list">
+                                <ul>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 1
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 3
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="footer-block__link">
+                                            Услуга 4
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__header">
+                                <span>Полезные ссылки</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__list">
+                                <ul>
+                                    <li>
+                                        <a href="http://www.nostroy.ru" class="footer-block__link">
+                                            www.nostroy.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.nop.ru" class="footer-block__link">
+                                            www.nop.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.iziskately.ru" class="footer-block__link">
+                                            www.iziskately.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.gosnadzor.ru" class="footer-block__link">
+                                            www.gosnadzor.ru
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <div class="footer-block__list">
+                                <ul>
+                                    <li>
+                                        <a href="http://www.minregion.ru" class="footer-block__link">
+                                            www.minregion.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://open.gov.ru" class="footer-block__link">
+                                            open.gov.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.gov.ru" class="footer-block__link">
+                                            www.gov.ru
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.deloros.ru" class="footer-block__link">
+                                            www.deloros.ru
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- отображене только на телефонах -->
-
                 </div>
+
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__header">
+                                <span>Контакты</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__address">
+                                <ul>
+                                    <li>
+                                        <span class="footer-block__address_1">
+                                            Адрес :
+                                        </span>
+                                        <span class="footer-block__address_2">
+                                             г. Москва, пр-т. Вернадского, 123
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="footer-block__address_1">
+                                            Тел.:
+                                        </span>
+                                        <span class="footer-block__address_2">
+                                             8 (495) 521-23-12
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="footer-block__address_1">
+                                            Факс:
+                                        </span>
+                                        <span class="footer-block__address_2">
+                                             8 (495) 212-32-12
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="footer-block__address_1">
+                                            E-mail:
+                                        </span>
+                                        <span class="footer-block__address_2">
+                                             sksz@sksz.ru
+                                        </span>
+                                    </li>
+                                </ul>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="footer-block__header-xs">
+                                <span>Мы в соц. сетях</span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="footer-block__social-xs">
+
+                                <div class="position-block">
+                                    <div class="main-social-list">
+                                        <ul >
+                                            <li class="fotter__list-social-icon">
+                                                <a href="">
+                                                    <div class="footer__social-icon-1"><i class="fa fa-vk"></i></div>
+                                                </a>
+                                            </li>
+                                            <li class="fotter__list-social-icon">
+                                                <a href="">
+                                                    <div class="footer__social-icon-2"><i class="fa fa-facebook"></i></div>
+                                                </a>
+                                            </li>
+                                            <li class="fotter__list-social-icon">
+                                                <a href="">
+                                                    <div class="footer__social-icon-3"><i class="fa fa-twitter"></i></div>
+                                                </a>
+                                            </li>
+                                            <li class="fotter__list-social-icon-last">
+                                                <a href="">
+                                                    <div class="footer__social-icon-4"><i class="fa fa-instagram"></i></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- отображене только на телефонах -->
+
             </div>
+            <!--</div>-->
         </section>
         <!-- footer-block -->
 
@@ -2271,14 +2745,14 @@
         <!-- modal window -->
         <!-- ========================================================================== -->
 
-        <script src="dev/js/jquery-2.1.1.js"></script>
-        <script src="dev/js/bootstrap.js" type="text/javascript"></script>
-        <script src="dev/js/plugins.js"></script>
-        <script src="dev/js/common.js"></script>
-        <script src="dev/js/modernizr-2.6.2.min.js"></script>
+        <script src="app/js/jquery-2.1.1.js"></script>
+        <script src="app/js/bootstrap.js" type="text/javascript"></script>
+        <script src="app/js/plugins.js"></script>
+        <script src="app/js/common.js"></script>
+        <script src="app/js/modernizr-2.6.2.min.js"></script>
 
         <!-- LESS убрать в продекшене -->
-        <script src="dev/js/less.min.js"></script>
+        <!--<script src="dev/js/less.min.js"></script>-->
 
     </body>
 </html>

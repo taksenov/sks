@@ -158,7 +158,6 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
-/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -167,8 +166,6 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
-/* -------= Примесь для кнопки =------- */
-/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -242,7 +239,6 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
-/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -400,12 +396,17 @@
     background-color: #414141;
   }
 }
-/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
 /* -------= advantage-block =------- */
+.q__margbot35 {
+  margin-bottom: 35px !important;
+}
+.q__margbot50 {
+  margin-bottom: 50px !important;
+}
 .smallhex-1-img {
   text-decoration: none !important;
   text-align: center;
@@ -699,14 +700,131 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Ubuntu';
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 75px;
+  margin-bottom: 25px;
 }
 .ns_orderinfo__caption-small h2 {
-  font-size: 18px !important;
+  font-size: 32px !important;
 }
-/* -------= advantage-block =------- */
 /* примесь для инфо меню */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= white-blocks =------- */
+.white-blocks {
+  background-color: #f0f0f0;
+  min-height: 214px;
+}
+.details-block__header-text {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #54adf1;
+  font-family: 'Ubuntu-Medium';
+}
+.details-block__header-text-xs {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #54adf1;
+  font-family: 'Ubuntu-Medium';
+}
+.preference-block__text {
+  font-size: 14px;
+  color: #282828;
+  font-family: 'Ubuntu';
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.white-blocks__margin-left-right {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 30.333333%;
+}
+.white-blocks__no-margin-left-right {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.service-light,
+.service-simple,
+.service-comfortable {
+  background-color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 5px solid #d4d4d4;
+}
+.preference-block__margintop {
+  margin-top: 30px;
+}
+.preference-block__marginbottom {
+  margin-bottom: 30px;
+}
+.button-1__image {
+  background: url('../../static/img/white-block/1_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-2__image {
+  background: url('../../static/img/white-block/2_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-3__image {
+  background: url('../../static/img/white-block/3_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.white-block__no-pad-left-right {
+  padding-right: 0;
+  padding-left: 0;
+}
+.white-block__no-pad-left {
+  padding-left: 0;
+}
+.double-pad-right {
+  padding-right: 30px;
+}
+.button-hover:hover .service-light,
+.button-hover:hover .service-simple,
+.button-hover:hover .service-comfortable {
+  background-color: #54adf1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 5px solid #4690c8;
+  border-bottom: none;
+}
+.button-hover:hover .button-1__image {
+  background: url('../../static/img/white-block/1_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-hover:hover .button-2__image {
+  background: url('../../static/img/white-block/2_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-hover:hover .button-3__image {
+  background: url('../../static/img/white-block/3_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-hover:hover .details-block__header-text-xs,
+.button-hover:hover .details-block__header-text,
+.button-hover:hover .preference-block__text {
+  color: #FFFFFF;
+}
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -910,164 +1028,6 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= how-works-block =------- */
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= free-help-block =------- */
-.free-help-block {
-  background: url('../../static/img/free-help/free-help-background.png') no-repeat center center /*fixed*/;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  min-height: 504px;
-}
-.free-help__order-button {
-  /*
-    @width: 68px,              = ширина
-    @height: 28px,             = высота
-    @img: none,                = картинка иконки
-    @bradius: 3px,             = радиус уголков
-    @bg-color: #17709a,        = цвет фона
-    @hover-bg-color: #17709a,  = цвет фона при ховере
-    @font-color: #ffffff       = цвет шрифта
-     */
-  font-family: 'Ubuntu';
-  margin-top: 89px;
-  text-transform: uppercase;
-  width: 165px;
-  height: 46px;
-  text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #54adf1;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  line-height: 46px;
-  color: #ffffff;
-  font-size: 14px;
-}
-.free-help__order-button:before {
-  content: "";
-  width: 25px;
-  height: 46px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: none center center no-repeat;
-}
-.free-help__order-button:hover {
-  opacity: 0.9;
-  background-color: #4994ce;
-  text-decoration: none;
-  color: #ffffff;
-}
-.free-help__order-button:before {
-  display: none;
-}
-.free-help-block h2,
-.free-help-block h3 {
-  margin: 0;
-  padding: 0;
-}
-.free-help__main-header {
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 54px;
-  margin-top: 90px !important;
-  margin-bottom: 25px !important;
-  color: #0b060f;
-}
-.free-help__h3-header {
-  font-family: 'Ubuntu';
-  font-size: 18px;
-  margin-bottom: 40px !important;
-  color: #0b060f;
-}
-.free-help__time-block {
-  color: #282828;
-  margin-bottom: 50px;
-  position: relative;
-}
-.time-block__digits {
-  font-family: 'Ubuntu';
-  position: absolute;
-  top: 86px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-size: 60px;
-  padding-left: 0;
-  border-bottom: 2px solid #282828;
-  border-top: 2px solid #282828;
-  width: 228px;
-  height: 92px;
-}
-.free-help__digits {
-  position: absolute;
-  top: -11px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.free-help__1-word {
-  font-family: 'Ubuntu-Bold';
-  font-size: 12px;
-  position: absolute;
-  top: 65px;
-  bottom: 0;
-  left: -166px;
-  right: 0;
-  text-transform: uppercase;
-}
-.free-help__2-word {
-  font-family: 'Ubuntu-Bold';
-  font-size: 12px;
-  position: absolute;
-  top: 65px;
-  bottom: 0;
-  left: 3px;
-  right: 0;
-  text-transform: uppercase;
-}
-.free-help__3-word {
-  font-family: 'Ubuntu-Bold';
-  font-size: 12px;
-  position: absolute;
-  top: 65px;
-  bottom: 0;
-  left: 172px;
-  right: 0;
-  text-transform: uppercase;
-}
-.free-help__main-header-xs {
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 32px;
-  margin-top: 30px !important;
-  margin-bottom: 25px !important;
-  color: #0b060f;
-}
-/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1150,7 +1110,6 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1240,7 +1199,7 @@
 .individual-approach__main-header-xs {
   text-transform: uppercase;
   font-family: 'Ubuntu';
-  font-size: 25px;
+  font-size: 32px;
   margin-top: 100px !important;
   margin-bottom: 25px !important;
   color: #0b060f;
@@ -1308,7 +1267,6 @@
 .individual-approach__order-button:before {
   display: none;
 }
-/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1409,7 +1367,6 @@
 .call-back__order-button:before {
   display: none;
 }
-/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1471,36 +1428,53 @@
   font-size: 12px;
 }
 .footer__social-icon-1 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/vk_1.png') center center no-repeat;
 }
 .footer__social-icon-1:hover {
   background: url('../../static/img/footer/vk_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-2 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/fb_1.png') center center no-repeat;
 }
 .footer__social-icon-2:hover {
   background: url('../../static/img/footer/fb_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-3 {
+  line-height: 23px;
+  vertical-align: middle;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/twi_1.png') center center no-repeat;
 }
 .footer__social-icon-3:hover {
   background: url('../../static/img/footer/twi_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer__social-icon-4 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
   width: 23px;
   height: 23px;
   background: url('../../static/img/footer/inst_1.png') center center no-repeat;
 }
 .footer__social-icon-4:hover {
   background: url('../../static/img/footer/inst_2.png') center center no-repeat;
+  color: #FFFFFF;
 }
 .footer-block__social {
   *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
@@ -1570,7 +1544,6 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
-/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1580,9 +1553,19 @@
   background-color: #282828;
   min-height: 357px;
   color: #ffffff;
+  position: relative;
 }
 .feed-back__text {
   color: #ffffff;
+}
+.about-company__margbot50 {
+  margin-bottom: 50px;
+}
+.feed-back__margtop30-xs {
+  margin-top: 30px;
+}
+.feed-back__margbot30-xs {
+  margin-bottom: 30px;
 }
 /* -------= медиазапросы для слайдера фидбека =------- */
 /* большие экраны */
@@ -1631,14 +1614,17 @@
   .feed-back__left-quote {
     padding: 0 !important;
     margin-top: -20px;
+    position: absolute;
+    top: 131px;
+    left: 37px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 114px;
+    left: 1058px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1706,15 +1692,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 817px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1733,7 +1721,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -25px;
+    bottom: -31px !important;
   }
 }
 /* средние экраны */
@@ -1782,15 +1770,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 581px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1809,7 +1799,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -65px;
+    bottom: -80px !important;
   }
 }
 /* малые экраны */
@@ -1863,13 +1853,11 @@
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1891,9 +1879,6 @@
     bottom: -65px;
   }
 }
-/* телефоны */
-/* -------= медиазапросы для слайдера фидбека =------- */
-/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1948,7 +1933,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -1984,6 +1969,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2059,7 +2045,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2095,6 +2081,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2170,7 +2157,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2206,6 +2193,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2282,7 +2270,7 @@
     font-family: 'Ubuntu';
     font-size: 28px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 28px;
   }
   .slider-block__header h2 {
@@ -2318,6 +2306,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2364,7 +2353,6 @@
     display: none;
   }
 }
-/* -------= slider-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2911,123 +2899,158 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
-/* -------= call-back-block =------- */
-/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= white-blocks =------- */
-.white-blocks {
-  background-color: #f0f0f0;
-  min-height: 214px;
+/* -------= free-help-block =------- */
+.free-help-block {
+  background: url('../../static/img/free-help/free-help-background.png') no-repeat center center /*fixed*/;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 504px;
 }
-.details-block__header-text {
-  margin-top: 20px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #54adf1;
-  font-family: 'Ubuntu-Medium';
-}
-.details-block__header-text-xs {
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #54adf1;
-  font-family: 'Ubuntu-Medium';
-}
-.preference-block__text {
-  font-size: 14px;
-  color: #282828;
+.free-help__order-button {
+  /*
+    @width: 68px,              = ширина
+    @height: 28px,             = высота
+    @img: none,                = картинка иконки
+    @bradius: 3px,             = радиус уголков
+    @bg-color: #17709a,        = цвет фона
+    @hover-bg-color: #17709a,  = цвет фона при ховере
+    @font-color: #ffffff       = цвет шрифта
+     */
   font-family: 'Ubuntu';
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.white-blocks__margin-left-right {
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 30.333333%;
-}
-.white-blocks__no-margin-left-right {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-.service-light,
-.service-simple,
-.service-comfortable {
-  background-color: #FFFFFF;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-bottom: 5px solid #d4d4d4;
-}
-.preference-block__margintop {
-  margin-top: 30px;
-}
-.preference-block__marginbottom {
-  margin-bottom: 30px;
-}
-.button-1__image {
-  background: url('../../static/img/white-block/1_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-2__image {
-  background: url('../../static/img/white-block/2_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-3__image {
-  background: url('../../static/img/white-block/3_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.white-block__no-pad-left-right {
-  padding-right: 0;
-  padding-left: 0;
-}
-.white-block__no-pad-left {
-  padding-left: 0;
-}
-.double-pad-right {
-  padding-right: 30px;
-}
-.button-hover:hover .service-light,
-.button-hover:hover .service-simple,
-.button-hover:hover .service-comfortable {
+  margin-top: 89px;
+  text-transform: uppercase;
+  width: 165px;
+  height: 46px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   background-color: #54adf1;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-top: 5px solid #4690c8;
-  border-bottom: none;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  line-height: 46px;
+  color: #ffffff;
+  font-size: 14px;
 }
-.button-hover:hover .button-1__image {
-  background: url('../../static/img/white-block/1_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
+.free-help__order-button:before {
+  content: "";
+  width: 25px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: none center center no-repeat;
 }
-.button-hover:hover .button-2__image {
-  background: url('../../static/img/white-block/2_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
+.free-help__order-button:hover {
+  opacity: 0.9;
+  background-color: #4994ce;
+  text-decoration: none;
+  color: #ffffff;
 }
-.button-hover:hover .button-3__image {
-  background: url('../../static/img/white-block/3_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
+.free-help__order-button:before {
+  display: none;
 }
-.button-hover:hover .details-block__header-text-xs,
-.button-hover:hover .details-block__header-text,
-.button-hover:hover .preference-block__text {
-  color: #FFFFFF;
+.free-help-block h2,
+.free-help-block h3 {
+  margin: 0;
+  padding: 0;
 }
-/* -------= white-blocks =------- */
+.free-help__main-header {
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 54px;
+  margin-top: 90px !important;
+  margin-bottom: 25px !important;
+  color: #0b060f;
+}
+.free-help__h3-header {
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  margin-bottom: 40px !important;
+  color: #0b060f;
+}
+.free-help__time-block {
+  color: #282828;
+  margin-bottom: 50px;
+  position: relative;
+}
+.time-block__digits {
+  font-family: 'Ubuntu';
+  position: absolute;
+  top: 86px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 60px;
+  padding-left: 0;
+  border-bottom: 2px solid #282828;
+  border-top: 2px solid #282828;
+  width: 228px;
+  height: 92px;
+}
+.free-help__digits {
+  position: absolute;
+  top: -11px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.free-help__1-word {
+  font-family: 'Ubuntu-Bold';
+  font-size: 12px;
+  position: absolute;
+  top: 65px;
+  bottom: 0;
+  left: -166px;
+  right: 0;
+  text-transform: uppercase;
+}
+.free-help__2-word {
+  font-family: 'Ubuntu-Bold';
+  font-size: 12px;
+  position: absolute;
+  top: 65px;
+  bottom: 0;
+  left: 3px;
+  right: 0;
+  text-transform: uppercase;
+}
+.free-help__3-word {
+  font-family: 'Ubuntu-Bold';
+  font-size: 12px;
+  position: absolute;
+  top: 65px;
+  bottom: 0;
+  left: 172px;
+  right: 0;
+  text-transform: uppercase;
+}
+.free-help__main-header-xs {
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 32px;
+  margin-top: 30px !important;
+  margin-bottom: 25px !important;
+  color: #0b060f;
+}

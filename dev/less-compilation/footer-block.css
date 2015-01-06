@@ -1,4 +1,5 @@
 /* -------= imports =------- */
+/* -------= imports =------- */
 /* MIXINS */
 /* by https://bitbucket.org/wowua/ */
 .inlineblock {
@@ -157,7 +158,6 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
-/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,8 +166,6 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
-/* -------= Примесь для кнопки =------- */
-/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -241,7 +239,6 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
-/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -399,12 +396,17 @@
     background-color: #414141;
   }
 }
-/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
 /* -------= advantage-block =------- */
+.q__margbot35 {
+  margin-bottom: 35px !important;
+}
+.q__margbot50 {
+  margin-bottom: 50px !important;
+}
 .smallhex-1-img {
   text-decoration: none !important;
   text-align: center;
@@ -698,13 +700,12 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Ubuntu';
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 75px;
+  margin-bottom: 25px;
 }
 .ns_orderinfo__caption-small h2 {
-  font-size: 18px !important;
+  font-size: 32px !important;
 }
-/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -824,7 +825,6 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
-/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1028,7 +1028,6 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1185,7 +1184,6 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
-/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1268,7 +1266,6 @@
   height: 3px;
   z-index: 1;
 }
-/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1358,7 +1355,7 @@
 .individual-approach__main-header-xs {
   text-transform: uppercase;
   font-family: 'Ubuntu';
-  font-size: 25px;
+  font-size: 32px;
   margin-top: 100px !important;
   margin-bottom: 25px !important;
   color: #0b060f;
@@ -1426,7 +1423,6 @@
 .individual-approach__order-button:before {
   display: none;
 }
-/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1527,168 +1523,6 @@
 .call-back__order-button:before {
   display: none;
 }
-/* -------= call-back-block =------- */
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= footer-block =------- */
-.footer-block {
-  min-height: 199px;
-  background-color: #282828;
-}
-.footer-block__header {
-  color: #818181;
-  text-transform: uppercase;
-  margin-top: 40px;
-  font-family: 'Ubuntu-Medium';
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-.footer-block__list {
-  color: #54adf1;
-}
-.footer-block__list ul li {
-  list-style: none;
-}
-.footer-block__list ul {
-  padding: 0;
-  margin: 0;
-}
-.footer-block__link {
-  font-family: 'Ubuntu';
-  font-size: 12px;
-  color: #54adf1;
-  text-decoration: underline;
-  z-index: 1;
-}
-.footer-block__link:hover {
-  color: #54adf1;
-  text-decoration: none;
-}
-.dark_dot {
-  color: transparent;
-}
-.footer-block__address ul li,
-.footer-block__social ul li {
-  list-style: none;
-}
-.footer-block__address ul,
-.footer-block__social ul {
-  padding: 0;
-  margin: 0;
-}
-.footer-block__address_1 {
-  color: #818181;
-  font-family: 'Ubuntu';
-  font-size: 12px;
-}
-.footer-block__address_2 {
-  color: #ffffff;
-  font-family: 'Ubuntu';
-  font-size: 12px;
-}
-.footer__social-icon-1 {
-  width: 23px;
-  height: 23px;
-  background: url('../../static/img/footer/vk_1.png') center center no-repeat;
-}
-.footer__social-icon-1:hover {
-  background: url('../../static/img/footer/vk_2.png') center center no-repeat;
-}
-.footer__social-icon-2 {
-  width: 23px;
-  height: 23px;
-  background: url('../../static/img/footer/fb_1.png') center center no-repeat;
-}
-.footer__social-icon-2:hover {
-  background: url('../../static/img/footer/fb_2.png') center center no-repeat;
-}
-.footer__social-icon-3 {
-  width: 23px;
-  height: 23px;
-  background: url('../../static/img/footer/twi_1.png') center center no-repeat;
-}
-.footer__social-icon-3:hover {
-  background: url('../../static/img/footer/twi_2.png') center center no-repeat;
-}
-.footer__social-icon-4 {
-  width: 23px;
-  height: 23px;
-  background: url('../../static/img/footer/inst_1.png') center center no-repeat;
-}
-.footer__social-icon-4:hover {
-  background: url('../../static/img/footer/inst_2.png') center center no-repeat;
-}
-.footer-block__social {
-  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
-  zoom: 1 !ie;
-  margin-top: 7px;
-}
-.footer-block__social:before,
-.footer-block__social:after {
-  content: "";
-  display: table;
-}
-.footer-block__social:after {
-  clear: both;
-}
-.position-block {
-  height: 30px;
-  width: 100%;
-  position: relative;
-}
-.position-block .main-social-list {
-  width: 122px;
-  height: 30px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto !important;
-}
-.footer-block__social-xs {
-  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
-  zoom: 1 !ie;
-  height: 50px;
-}
-.footer-block__social-xs:before,
-.footer-block__social-xs:after {
-  content: "";
-  display: table;
-}
-.footer-block__social-xs:after {
-  clear: both;
-}
-.footer-block__social-xs ul li {
-  list-style: none;
-}
-.footer-block__social-xs ul {
-  padding: 0;
-  margin: 0;
-}
-.fotter__list-social-icon {
-  float: left;
-  margin-right: 10px;
-}
-.fotter__list-social-icon-md {
-  float: left;
-  margin-right: 8px;
-}
-.fotter__list-social-icon-last {
-  float: left;
-  margin-right: 0;
-}
-.footer-block__header-xs {
-  margin-bottom: 30px;
-  color: #818181;
-  text-transform: uppercase;
-  margin-top: 40px;
-  font-family: 'Ubuntu-Medium';
-  font-size: 14px;
-}
-/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,9 +1532,19 @@
   background-color: #282828;
   min-height: 357px;
   color: #ffffff;
+  position: relative;
 }
 .feed-back__text {
   color: #ffffff;
+}
+.about-company__margbot50 {
+  margin-bottom: 50px;
+}
+.feed-back__margtop30-xs {
+  margin-top: 30px;
+}
+.feed-back__margbot30-xs {
+  margin-bottom: 30px;
 }
 /* -------= медиазапросы для слайдера фидбека =------- */
 /* большие экраны */
@@ -1749,14 +1593,17 @@
   .feed-back__left-quote {
     padding: 0 !important;
     margin-top: -20px;
+    position: absolute;
+    top: 131px;
+    left: 37px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 114px;
+    left: 1058px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1824,15 +1671,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 817px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1851,7 +1700,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -25px;
+    bottom: -31px !important;
   }
 }
 /* средние экраны */
@@ -1900,15 +1749,17 @@
   }
   .feed-back__left-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 73px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
-    margin-top: -20px;
+    position: absolute;
+    top: 110px;
+    left: 581px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -1927,7 +1778,7 @@
     margin-right: 10px;
   }
   .carousel-indicators {
-    bottom: -65px;
+    bottom: -80px !important;
   }
 }
 /* малые экраны */
@@ -1981,13 +1832,11 @@
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
   }
   .feed-back__right-quote {
     padding: 0 !important;
     margin-top: -20px;
     height: 37px;
-    background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
   }
   .carousel-indicators .indicator-blue.active {
     width: 13px;
@@ -2009,9 +1858,6 @@
     bottom: -65px;
   }
 }
-/* телефоны */
-/* -------= медиазапросы для слайдера фидбека =------- */
-/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2066,7 +1912,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2102,6 +1948,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2177,7 +2024,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2213,6 +2060,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2288,7 +2136,7 @@
     font-family: 'Ubuntu';
     font-size: 44px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 55px;
   }
   .slider-block__header h2 {
@@ -2324,6 +2172,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2400,7 +2249,7 @@
     font-family: 'Ubuntu';
     font-size: 28px;
     text-transform: uppercase;
-    text-shadow: 1px 0 1px #282828;
+    text-shadow: none;
     line-height: 28px;
   }
   .slider-block__header h2 {
@@ -2436,6 +2285,7 @@
     margin-top: 13px;
     margin-left: 65px;
     text-transform: uppercase;
+    text-shadow: none;
     width: 165px;
     height: 46px;
     text-align: center;
@@ -2482,7 +2332,6 @@
     display: none;
   }
 }
-/* -------= slider-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -3029,5 +2878,179 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
-/* -------= call-back-block =------- */
 /* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= footer-block =------- */
+.footer-block {
+  min-height: 199px;
+  background-color: #282828;
+}
+.footer-block__header {
+  color: #818181;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-family: 'Ubuntu-Medium';
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.footer-block__list {
+  color: #54adf1;
+}
+.footer-block__list ul li {
+  list-style: none;
+}
+.footer-block__list ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-block__link {
+  font-family: 'Ubuntu';
+  font-size: 12px;
+  color: #54adf1;
+  text-decoration: underline;
+  z-index: 1;
+}
+.footer-block__link:hover {
+  color: #54adf1;
+  text-decoration: none;
+}
+.dark_dot {
+  color: transparent;
+}
+.footer-block__address ul li,
+.footer-block__social ul li {
+  list-style: none;
+}
+.footer-block__address ul,
+.footer-block__social ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-block__address_1 {
+  color: #818181;
+  font-family: 'Ubuntu';
+  font-size: 12px;
+}
+.footer-block__address_2 {
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-size: 12px;
+}
+.footer__social-icon-1 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
+  width: 23px;
+  height: 23px;
+  background: url('../../static/img/footer/vk_1.png') center center no-repeat;
+}
+.footer__social-icon-1:hover {
+  background: url('../../static/img/footer/vk_2.png') center center no-repeat;
+  color: #FFFFFF;
+}
+.footer__social-icon-2 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
+  width: 23px;
+  height: 23px;
+  background: url('../../static/img/footer/fb_1.png') center center no-repeat;
+}
+.footer__social-icon-2:hover {
+  background: url('../../static/img/footer/fb_2.png') center center no-repeat;
+  color: #FFFFFF;
+}
+.footer__social-icon-3 {
+  line-height: 23px;
+  vertical-align: middle;
+  text-align: center;
+  color: #282828;
+  width: 23px;
+  height: 23px;
+  background: url('../../static/img/footer/twi_1.png') center center no-repeat;
+}
+.footer__social-icon-3:hover {
+  background: url('../../static/img/footer/twi_2.png') center center no-repeat;
+  color: #FFFFFF;
+}
+.footer__social-icon-4 {
+  line-height: 23px;
+  text-align: center;
+  color: #282828;
+  width: 23px;
+  height: 23px;
+  background: url('../../static/img/footer/inst_1.png') center center no-repeat;
+}
+.footer__social-icon-4:hover {
+  background: url('../../static/img/footer/inst_2.png') center center no-repeat;
+  color: #FFFFFF;
+}
+.footer-block__social {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+  margin-top: 7px;
+}
+.footer-block__social:before,
+.footer-block__social:after {
+  content: "";
+  display: table;
+}
+.footer-block__social:after {
+  clear: both;
+}
+.position-block {
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+.position-block .main-social-list {
+  width: 122px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto !important;
+}
+.footer-block__social-xs {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+  height: 50px;
+}
+.footer-block__social-xs:before,
+.footer-block__social-xs:after {
+  content: "";
+  display: table;
+}
+.footer-block__social-xs:after {
+  clear: both;
+}
+.footer-block__social-xs ul li {
+  list-style: none;
+}
+.footer-block__social-xs ul {
+  padding: 0;
+  margin: 0;
+}
+.fotter__list-social-icon {
+  float: left;
+  margin-right: 10px;
+}
+.fotter__list-social-icon-md {
+  float: left;
+  margin-right: 8px;
+}
+.fotter__list-social-icon-last {
+  float: left;
+  margin-right: 0;
+}
+.footer-block__header-xs {
+  margin-bottom: 30px;
+  color: #818181;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-family: 'Ubuntu-Medium';
+  font-size: 14px;
+}

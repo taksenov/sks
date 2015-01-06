@@ -14,11 +14,12 @@
     background-color: @feed-back-block-background;
     min-height: @feed-back-block-height;
     color: @feed-back-block-text;
-
+    position: relative;
 }
 .feed-back__text {
     color: @feed-back-block-text;
 }
+
 //.feed-back__main-text {
 //    .ubuntu;
 //    font-size: 14px;
@@ -97,6 +98,18 @@
 //    bottom: 42px;
 //}
 
+
+
+.about-company__margbot50 {
+    margin-bottom: 50px;
+}
+.feed-back__margtop30-xs {
+    margin-top: 30px;
+}
+.feed-back__margbot30-xs {
+    margin-bottom: 30px;
+}
+
 /* -------= медиазапросы для слайдера фидбека =------- */
 
 /* большие экраны */
@@ -147,16 +160,23 @@
         //margin: 0 !important;
         //width: 100%;
         margin-top: -20px;
+        position: absolute;
+        top: 131px;
+        left: 37px;
         height: 37px;
-        background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+//        background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
     }
     .feed-back__right-quote {
         padding: 0 !important;
         //margin: 0 !important;
         //width: 100%;
-        margin-top: -20px;
+        //margin-top: -20px;
+        position: absolute;
+        top: 114px;
+        left: 1058px;
+//        z-index: 10;
         height: 37px;
-        background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+//        background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
     }
 
     .carousel-indicators .indicator-blue.active {
@@ -228,17 +248,23 @@
         padding: 0 !important;
         //margin: 0 !important;
         //width: 100%;
-        margin-top: -20px;
+        //margin-top: -20px;
+        position: absolute;
+        top: 110px;
+        left: 73px;
         height: 37px;
-        background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
     }
     .feed-back__right-quote {
         padding: 0 !important;
         //margin: 0 !important;
         //width: 100%;
-        margin-top: -20px;
+        //margin-top: -20px;
+        position: absolute;
+        top: 110px;
+        left: 817px;
         height: 37px;
-        background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
     }
 
     .carousel-indicators .indicator-blue.active {
@@ -258,7 +284,7 @@
         margin-right: 10px;
     }
     .carousel-indicators {
-        bottom: -25px;
+        bottom: -31px !important;
     }
 }
 /* средние экраны */
@@ -310,17 +336,23 @@
         padding: 0 !important;
         //margin: 0 !important;
         //width: 100%;
-        margin-top: -20px;
+        //margin-top: -20px;
+        position: absolute;
+        top: 110px;
+        left: 73px;
         height: 37px;
-        background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
     }
     .feed-back__right-quote {
         padding: 0 !important;
         //margin: 0 !important;
         //width: 100%;
-        margin-top: -20px;
+        //margin-top: -20px;
+        position: absolute;
+        top: 110px;
+        left: 581px;
         height: 37px;
-        background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
     }
 
     .carousel-indicators .indicator-blue.active {
@@ -340,7 +372,7 @@
         margin-right: 10px;
     }
     .carousel-indicators {
-        bottom: -65px;
+        bottom: -80px !important;
     }
 }
 /* малые экраны */
@@ -397,7 +429,7 @@
         //width: 100%;
         margin-top: -20px;
         height: 37px;
-        background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
     }
     .feed-back__right-quote {
         padding: 0 !important;
@@ -405,7 +437,7 @@
         //width: 100%;
         margin-top: -20px;
         height: 37px;
-        background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
     }
 
     .carousel-indicators .indicator-blue.active {
