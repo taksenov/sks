@@ -158,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -239,6 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -396,6 +400,7 @@
     background-color: #414141;
   }
 }
+/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -706,6 +711,7 @@
 .ns_orderinfo__caption-small h2 {
   font-size: 32px !important;
 }
+/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -825,6 +831,7 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
+/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1029,6 +1036,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1184,88 +1192,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= about-company-block =------- */
-.about-company-block {
-  background-color: #54adf1;
-  min-height: 584px;
-}
-.about-company-block p,
-.about-company-block h2 {
-  margin: 0;
-  padding: 0;
-}
-.about-company-block__header {
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 25px;
-  margin-top: 78px;
-  margin-bottom: 25px;
-}
-.about-company-block__text {
-  color: #ffffff;
-  font-family: 'Ubuntu';
-  font-size: 16px;
-  margin-bottom: 78px;
-}
-.about-company-block__info-header {
-  color: #3c6a8f;
-  text-transform: uppercase;
-  font-family: 'Ubuntu-Medium';
-  font-size: 24px;
-  padding-left: 40px;
-}
-.about-company-block__info-list {
-  color: #ffffff;
-  font-family: 'Ubuntu';
-  font-size: 16px;
-}
-.about-company-block__info-list ul {
-  list-style-image: url('../../static/img/about-company/ul-arrow.png');
-  /* Путь к изображению маркера */
-}
-.about-company-block__link {
-  color: #ffffff;
-  text-decoration: none;
-}
-.about-company-block__link:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-.about-company-block__container-for-dots {
-  position: relative;
-}
-.about-company-block__dots-lg {
-  position: absolute;
-  top: 321px;
-  left: 122px;
-  background: url('../../static/img/about-company/dots_long.png') center center no-repeat;
-  width: 927px;
-  height: 3px;
-  z-index: 1;
-}
-.about-company-block__dots-md {
-  position: absolute;
-  top: 353px;
-  left: 161px;
-  background: url('../../static/img/about-company/dots_md.png') center center no-repeat;
-  width: 652px;
-  height: 3px;
-  z-index: 1;
-}
-.about-company-block__dots-sm {
-  position: absolute;
-  top: 404px;
-  left: 50px;
-  background: url('../../static/img/about-company/dots_sm.png') center center no-repeat;
-  width: 652px;
-  height: 3px;
-  z-index: 1;
-}
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1421,6 +1348,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1521,6 +1449,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,6 +1627,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2033,6 +1963,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2501,6 +2434,81 @@
   }
   .slider-block__link-details:before {
     display: none;
+  }
+}
+/* -------= slider-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= call-back-block =------- */
+.modal-block__custom {
+  border-radius: 0;
+}
+.modal-title__custom {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+}
+.form-control__custom {
+  text-align: center;
+  width: 252px;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
+}
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
+  background-color: #4994ce;
+}
+.alert-danger__custom {
+  text-align: center;
+}
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2975,76 +2983,87 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
+/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
+/* -------= about-company-block =------- */
+.about-company-block {
+  background-color: #54adf1;
+  min-height: 584px;
 }
-.modal-title__custom {
+.about-company-block p,
+.about-company-block h2 {
+  margin: 0;
+  padding: 0;
+}
+.about-company-block__header {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 25px;
+  margin-top: 78px;
+  margin-bottom: 25px;
+}
+.about-company-block__text {
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  margin-bottom: 78px;
+}
+.about-company-block__info-header {
+  color: #3c6a8f;
   text-transform: uppercase;
   font-family: 'Ubuntu-Medium';
-  font-size: 18px;
+  font-size: 24px;
+  padding-left: 40px;
 }
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
-  font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
+.about-company-block__info-list {
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-size: 16px;
 }
-.modal-header__custom {
-  border-bottom: none;
+.about-company-block__info-list ul {
+  list-style-image: url('../../static/img/about-company/ul-arrow.png');
+  /* Путь к изображению маркера */
 }
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
+.about-company-block__link {
+  color: #ffffff;
+  text-decoration: none;
 }
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
+.about-company-block__link:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
-.btn-primary__custom:hover {
-  background-color: #4994ce;
+.about-company-block__container-for-dots {
+  position: relative;
 }
-.alert-danger__custom {
-  text-align: center;
+.about-company-block__dots-lg {
+  position: absolute;
+  top: 321px;
+  left: 122px;
+  background: url('../../static/img/about-company/dots_long.png') center center no-repeat;
+  width: 927px;
+  height: 3px;
+  z-index: 1;
 }
-@media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
+.about-company-block__dots-md {
+  position: absolute;
+  top: 353px;
+  left: 161px;
+  background: url('../../static/img/about-company/dots_md.png') center center no-repeat;
+  width: 652px;
+  height: 3px;
+  z-index: 1;
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
+.about-company-block__dots-sm {
+  position: absolute;
+  top: 404px;
+  left: 50px;
+  background: url('../../static/img/about-company/dots_sm.png') center center no-repeat;
+  width: 652px;
+  height: 3px;
+  z-index: 1;
 }
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
-  }
-}
+/* -------= about-company-block =------- */

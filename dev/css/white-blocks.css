@@ -158,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -239,6 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -396,6 +400,7 @@
     background-color: #414141;
   }
 }
+/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -706,125 +711,8 @@
 .ns_orderinfo__caption-small h2 {
   font-size: 32px !important;
 }
+/* -------= advantage-block =------- */
 /* примесь для инфо меню */
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= white-blocks =------- */
-.white-blocks {
-  background-color: #f0f0f0;
-  min-height: 214px;
-}
-.details-block__header-text {
-  margin-top: 20px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #54adf1;
-  font-family: 'Ubuntu-Medium';
-}
-.details-block__header-text-xs {
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #54adf1;
-  font-family: 'Ubuntu-Medium';
-}
-.preference-block__text {
-  font-size: 14px;
-  color: #282828;
-  font-family: 'Ubuntu';
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.white-blocks__margin-left-right {
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 30.333333%;
-}
-.white-blocks__no-margin-left-right {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-.service-light,
-.service-simple,
-.service-comfortable {
-  background-color: #FFFFFF;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-bottom: 5px solid #d4d4d4;
-}
-.preference-block__margintop {
-  margin-top: 30px;
-}
-.preference-block__marginbottom {
-  margin-bottom: 30px;
-}
-.button-1__image {
-  background: url('../../static/img/white-block/1_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-2__image {
-  background: url('../../static/img/white-block/2_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-3__image {
-  background: url('../../static/img/white-block/3_button-1.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.white-block__no-pad-left-right {
-  padding-right: 0;
-  padding-left: 0;
-}
-.white-block__no-pad-left {
-  padding-left: 0;
-}
-.double-pad-right {
-  padding-right: 30px;
-}
-.button-hover:hover .service-light,
-.button-hover:hover .service-simple,
-.button-hover:hover .service-comfortable {
-  background-color: #54adf1;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-top: 5px solid #4690c8;
-  border-bottom: none;
-}
-.button-hover:hover .button-1__image {
-  background: url('../../static/img/white-block/1_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-hover:hover .button-2__image {
-  background: url('../../static/img/white-block/2_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-hover:hover .button-3__image {
-  background: url('../../static/img/white-block/3_button-2.png') center center no-repeat;
-  width: 110px;
-  height: 50px;
-  margin-top: 20px;
-}
-.button-hover:hover .details-block__header-text-xs,
-.button-hover:hover .details-block__header-text,
-.button-hover:hover .preference-block__text {
-  color: #FFFFFF;
-}
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1029,6 +917,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1184,6 +1073,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1266,6 +1156,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1421,6 +1312,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1521,6 +1413,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,6 +1591,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2033,6 +1927,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2501,6 +2398,81 @@
   }
   .slider-block__link-details:before {
     display: none;
+  }
+}
+/* -------= slider-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= call-back-block =------- */
+.modal-block__custom {
+  border-radius: 0;
+}
+.modal-title__custom {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+}
+.form-control__custom {
+  text-align: center;
+  width: 252px;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
+}
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
+  background-color: #4994ce;
+}
+.alert-danger__custom {
+  text-align: center;
+}
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2975,76 +2947,123 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
+/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
+/* -------= white-blocks =------- */
+.white-blocks {
+  background-color: #f0f0f0;
+  min-height: 214px;
 }
-.modal-title__custom {
+.details-block__header-text {
+  margin-top: 20px;
+  margin-bottom: 8px;
   text-transform: uppercase;
+  font-size: 16px;
+  color: #54adf1;
   font-family: 'Ubuntu-Medium';
-  font-size: 18px;
 }
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
+.details-block__header-text-xs {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #54adf1;
+  font-family: 'Ubuntu-Medium';
+}
+.preference-block__text {
   font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
+  color: #282828;
+  font-family: 'Ubuntu';
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.modal-header__custom {
+.white-blocks__margin-left-right {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 30.333333%;
+}
+.white-blocks__no-margin-left-right {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.service-light,
+.service-simple,
+.service-comfortable {
+  background-color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 5px solid #d4d4d4;
+}
+.preference-block__margintop {
+  margin-top: 30px;
+}
+.preference-block__marginbottom {
+  margin-bottom: 30px;
+}
+.button-1__image {
+  background: url('../../static/img/white-block/1_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-2__image {
+  background: url('../../static/img/white-block/2_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.button-3__image {
+  background: url('../../static/img/white-block/3_button-1.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
+}
+.white-block__no-pad-left-right {
+  padding-right: 0;
+  padding-left: 0;
+}
+.white-block__no-pad-left {
+  padding-left: 0;
+}
+.double-pad-right {
+  padding-right: 30px;
+}
+.button-hover:hover .service-light,
+.button-hover:hover .service-simple,
+.button-hover:hover .service-comfortable {
+  background-color: #54adf1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 5px solid #4690c8;
   border-bottom: none;
 }
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
+.button-hover:hover .button-1__image {
+  background: url('../../static/img/white-block/1_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
 }
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
+.button-hover:hover .button-2__image {
+  background: url('../../static/img/white-block/2_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
 }
-.btn-primary__custom:hover {
-  background-color: #4994ce;
+.button-hover:hover .button-3__image {
+  background: url('../../static/img/white-block/3_button-2.png') center center no-repeat;
+  width: 110px;
+  height: 50px;
+  margin-top: 20px;
 }
-.alert-danger__custom {
-  text-align: center;
+.button-hover:hover .details-block__header-text-xs,
+.button-hover:hover .details-block__header-text,
+.button-hover:hover .preference-block__text {
+  color: #FFFFFF;
 }
-@media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
-  }
-}
+/* -------= white-blocks =------- */

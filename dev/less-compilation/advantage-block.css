@@ -570,6 +570,7 @@
 }
 .how-works__text a {
   text-decoration: underline;
+  color: #54adf1;
 }
 .how-works__text a:hover {
   text-decoration: none;
@@ -782,7 +783,6 @@
   background: none center center no-repeat;
 }
 .free-help__order-button:hover {
-  opacity: 0.9;
   background-color: #4994ce;
   text-decoration: none;
   color: #ffffff;
@@ -920,11 +920,11 @@
 }
 .about-company-block__link {
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .about-company-block__link:hover {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .about-company-block__container-for-dots {
   position: relative;
@@ -1020,7 +1020,6 @@
   background: none center center no-repeat;
 }
 .individual-approach-block__order-button:hover {
-  opacity: 0.9;
   background-color: #4994ce;
   text-decoration: none;
   color: #ffffff;
@@ -1105,7 +1104,6 @@
   background: none center center no-repeat;
 }
 .individual-approach__order-button:hover {
-  opacity: 0.9;
   background-color: #4994ce;
   text-decoration: none;
   color: #ffffff;
@@ -1853,7 +1851,6 @@
     background: none center center no-repeat;
   }
   .slider-block__link-details:hover {
-    opacity: 0.9;
     background-color: #4994ce;
     text-decoration: none;
     color: #ffffff;
@@ -1965,7 +1962,6 @@
     background: none center center no-repeat;
   }
   .slider-block__link-details:hover {
-    opacity: 0.9;
     background-color: #4994ce;
     text-decoration: none;
     color: #ffffff;
@@ -2077,7 +2073,6 @@
     background: none center center no-repeat;
   }
   .slider-block__link-details:hover {
-    opacity: 0.9;
     background-color: #4994ce;
     text-decoration: none;
     color: #ffffff;
@@ -2190,7 +2185,6 @@
     background: none center center no-repeat;
   }
   .slider-block__link-details:hover {
-    opacity: 0.9;
     background-color: #4994ce;
     text-decoration: none;
     color: #ffffff;

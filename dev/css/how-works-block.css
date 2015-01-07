@@ -158,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -239,6 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -396,6 +400,7 @@
     background-color: #414141;
   }
 }
+/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -706,6 +711,7 @@
 .ns_orderinfo__caption-small h2 {
   font-size: 32px !important;
 }
+/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -825,210 +831,7 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= how-works-block =------- */
-.how-works-block {
-  background-color: #282828;
-  min-height: 415px;
-}
-.how-works-block__header-text {
-  color: #ffffff;
-}
-.step-1__image {
-  background: url('../../static/img/how-works/1_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.step-2__image {
-  background: url('../../static/img/how-works/2_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.step-3__image {
-  background: url('../../static/img/how-works/3_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.step-4__image {
-  background: url('../../static/img/how-works/4_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.step-5__image {
-  background: url('../../static/img/how-works/5_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.step-6__image {
-  background: url('../../static/img/how-works/6_step.png') center center no-repeat;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-}
-.how-works__text {
-  color: #FFFFFF;
-  font-family: 'Ubuntu';
-  font-size: 16px;
-}
-.how-works__text a {
-  text-decoration: underline;
-  color: #54adf1;
-}
-.how-works__text a:hover {
-  text-decoration: none;
-}
-.step-image__margbot {
-  margin-bottom: 34px;
-}
-.how-works__container-for-dots {
-  position: relative;
-}
-/* -------= dots-lg =------- */
-.dots-1 {
-  position: absolute;
-  top: 46px;
-  left: 126px;
-  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-2 {
-  position: absolute;
-  top: 46px;
-  left: 334px;
-  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-3 {
-  position: absolute;
-  top: 46px;
-  left: 518px;
-  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-4 {
-  position: absolute;
-  top: 46px;
-  left: 718px;
-  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-5 {
-  position: absolute;
-  top: 46px;
-  left: 914px;
-  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-/* -------= dots-md =------- */
-.dots-1-md {
-  position: absolute;
-  top: 46px;
-  left: 95px;
-  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-2-md {
-  position: absolute;
-  top: 46px;
-  left: 264px;
-  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-3-md {
-  position: absolute;
-  top: 46px;
-  left: 415px;
-  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-4-md {
-  position: absolute;
-  top: 46px;
-  left: 582px;
-  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-5-md {
-  position: absolute;
-  top: 46px;
-  left: 743px;
-  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-/* -------= dots sm =------- */
-.dots-1-sm {
-  position: absolute;
-  top: 46px;
-  left: 58px;
-  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-2-sm {
-  position: absolute;
-  top: 46px;
-  left: 190px;
-  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-3-sm {
-  position: absolute;
-  top: 46px;
-  left: 304px;
-  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-4-sm {
-  position: absolute;
-  top: 46px;
-  left: 437px;
-  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
-.dots-5-sm {
-  position: absolute;
-  top: 46px;
-  left: 560px;
-  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
-  width: 124px;
-  height: 3px;
-  z-index: 1;
-}
+/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1184,6 +987,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1266,6 +1070,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1421,6 +1226,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1521,6 +1327,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,6 +1505,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2033,6 +1841,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2501,6 +2312,81 @@
   }
   .slider-block__link-details:before {
     display: none;
+  }
+}
+/* -------= slider-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= call-back-block =------- */
+.modal-block__custom {
+  border-radius: 0;
+}
+.modal-title__custom {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+}
+.form-control__custom {
+  text-align: center;
+  width: 252px;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
+}
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
+  background-color: #4994ce;
+}
+.alert-danger__custom {
+  text-align: center;
+}
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2975,76 +2861,209 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
+/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
+/* -------= how-works-block =------- */
+.how-works-block {
+  background-color: #282828;
+  min-height: 415px;
 }
-.modal-title__custom {
-  text-transform: uppercase;
-  font-family: 'Ubuntu-Medium';
-  font-size: 18px;
+.how-works-block__header-text {
+  color: #ffffff;
 }
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
-  font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
+.step-1__image {
+  background: url('../../static/img/how-works/1_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-.modal-header__custom {
-  border-bottom: none;
+.step-2__image {
+  background: url('../../static/img/how-works/2_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
+.step-3__image {
+  background: url('../../static/img/how-works/3_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
+.step-4__image {
+  background: url('../../static/img/how-works/4_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-.btn-primary__custom:hover {
-  background-color: #4994ce;
+.step-5__image {
+  background: url('../../static/img/how-works/5_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-.alert-danger__custom {
-  text-align: center;
+.step-6__image {
+  background: url('../../static/img/how-works/6_step.png') center center no-repeat;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
 }
-@media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
+.how-works__text {
+  color: #FFFFFF;
+  font-family: 'Ubuntu';
+  font-size: 16px;
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
+.how-works__text a {
+  text-decoration: underline;
+  color: #54adf1;
 }
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
+.how-works__text a:hover {
+  text-decoration: none;
 }
-@media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
-  }
+.step-image__margbot {
+  margin-bottom: 34px;
 }
+.how-works__container-for-dots {
+  position: relative;
+}
+/* -------= dots-lg =------- */
+.dots-1 {
+  position: absolute;
+  top: 46px;
+  left: 126px;
+  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-2 {
+  position: absolute;
+  top: 46px;
+  left: 334px;
+  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-3 {
+  position: absolute;
+  top: 46px;
+  left: 518px;
+  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-4 {
+  position: absolute;
+  top: 46px;
+  left: 718px;
+  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-5 {
+  position: absolute;
+  top: 46px;
+  left: 914px;
+  background: url('../../static/img/how-works/1_dots.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+/* -------= dots-md =------- */
+.dots-1-md {
+  position: absolute;
+  top: 46px;
+  left: 95px;
+  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-2-md {
+  position: absolute;
+  top: 46px;
+  left: 264px;
+  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-3-md {
+  position: absolute;
+  top: 46px;
+  left: 415px;
+  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-4-md {
+  position: absolute;
+  top: 46px;
+  left: 582px;
+  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-5-md {
+  position: absolute;
+  top: 46px;
+  left: 743px;
+  background: url('../../static/img/how-works/1_dots-md.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+/* -------= dots sm =------- */
+.dots-1-sm {
+  position: absolute;
+  top: 46px;
+  left: 58px;
+  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-2-sm {
+  position: absolute;
+  top: 46px;
+  left: 190px;
+  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-3-sm {
+  position: absolute;
+  top: 46px;
+  left: 304px;
+  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-4-sm {
+  position: absolute;
+  top: 46px;
+  left: 437px;
+  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+.dots-5-sm {
+  position: absolute;
+  top: 46px;
+  left: 560px;
+  background: url('../../static/img/how-works/1_dots-sm.png') center center no-repeat;
+  width: 124px;
+  height: 3px;
+  z-index: 1;
+}
+/* -------= how-works-block =------- */

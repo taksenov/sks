@@ -158,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -239,6 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -396,316 +400,7 @@
     background-color: #414141;
   }
 }
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= advantage-block =------- */
-.q__margbot35 {
-  margin-bottom: 35px !important;
-}
-.q__margbot50 {
-  margin-bottom: 50px !important;
-}
-.smallhex-1-img {
-  text-decoration: none !important;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  color: #282828;
-  font-size: 18px;
-  font-family: 'Ubuntu-Medium';
-  text-transform: uppercase;
-  display: block;
-  height: 102px;
-  width: 100%;
-  /*&:hover {
-        opacity: 0.9;
-
-        &:before {
-            content: "";
-            width: 102px;
-            height: @height;
-            .inlineblock;
-            background: @img2 center center no-repeat;
-            text-decoration: none;
-        }
-
-    }*/
-}
-.smallhex-1-img:before {
-  content: "";
-  width: 102px;
-  height: 102px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: url('../../static/img/advantage-block/1_clock.png') center center no-repeat;
-}
-.smallhex-2-img {
-  text-decoration: none !important;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  color: #282828;
-  font-size: 18px;
-  font-family: 'Ubuntu-Medium';
-  text-transform: uppercase;
-  display: block;
-  height: 102px;
-  width: 100%;
-  /*&:hover {
-        opacity: 0.9;
-
-        &:before {
-            content: "";
-            width: 102px;
-            height: @height;
-            .inlineblock;
-            background: @img2 center center no-repeat;
-            text-decoration: none;
-        }
-
-    }*/
-}
-.smallhex-2-img:before {
-  content: "";
-  width: 102px;
-  height: 102px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: url('../../static/img/advantage-block/2_like.png') center center no-repeat;
-}
-.smallhex-3-img {
-  text-decoration: none !important;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  color: #282828;
-  font-size: 18px;
-  font-family: 'Ubuntu-Medium';
-  text-transform: uppercase;
-  display: block;
-  height: 102px;
-  width: 100%;
-  /*&:hover {
-        opacity: 0.9;
-
-        &:before {
-            content: "";
-            width: 102px;
-            height: @height;
-            .inlineblock;
-            background: @img2 center center no-repeat;
-            text-decoration: none;
-        }
-
-    }*/
-}
-.smallhex-3-img:before {
-  content: "";
-  width: 102px;
-  height: 102px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: url('../../static/img/advantage-block/3_message.png') center center no-repeat;
-}
-.smallhex-4-img {
-  text-decoration: none !important;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  padding: 0;
-  border: 0 none;
-  text-decoration: none;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  color: #282828;
-  font-size: 18px;
-  font-family: 'Ubuntu-Medium';
-  text-transform: uppercase;
-  display: block;
-  height: 102px;
-  width: 100%;
-  /*&:hover {
-        opacity: 0.9;
-
-        &:before {
-            content: "";
-            width: 102px;
-            height: @height;
-            .inlineblock;
-            background: @img2 center center no-repeat;
-            text-decoration: none;
-        }
-
-    }*/
-}
-.smallhex-4-img:before {
-  content: "";
-  width: 102px;
-  height: 102px;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1 !ie;
-  display: inline !ie;
-  background: url('../../static/img/advantage-block/4_shield.png') center center no-repeat;
-}
-.hex-orderinfo-text {
-  padding-top: 0;
-  padding-bottom: 20px;
-  text-transform: uppercase;
-  font-family: 'Ubuntu-Medium';
-  font-size: 12px;
-}
-.hex-orderinfo-text p {
-  text-align: center;
-  margin-top: 4px;
-}
-.hex-orderinfo-text .hex-orderinfo-text__header {
-  font-family: 'Ubuntu-Medium';
-  font-size: 18px;
-  margin-bottom: 6px;
-}
-.hex-orderinfo-text .hex-orderinfo-text__simple-text {
-  font-family: 'Ubuntu';
-  font-size: 14px;
-  text-transform: none;
-  margin-bottom: 6px;
-}
-@media screen and (min-width: 1201px) {
-  .ns_orderinfo__thumbs {
-    min-height: 217px;
-  }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .ns_orderinfo__thumbs {
-    min-height: 276px;
-  }
-  .ns_orderinfo {
-    min-height: 418px;
-    height: 760px;
-  }
-  .ns_orderinfo_1stback {
-    min-height: 760px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_2ndback {
-    min-height: 760px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_3rdback {
-    min-height: 760px;
-    max-height: 2090px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .ns_orderinfo__thumbs {
-    min-height: 330px;
-  }
-  .ns_orderinfo {
-    min-height: 418px;
-    height: 860px;
-  }
-  .ns_orderinfo_1stback {
-    min-height: 860px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_2ndback {
-    min-height: 860px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_3rdback {
-    min-height: 860px;
-    max-height: 2090px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .ns_orderinfo__thumbs {
-    min-height: 217px;
-  }
-  .ns_orderinfo {
-    min-height: 1045px;
-  }
-  .ns_orderinfo_1stback {
-    min-height: 1045px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_2ndback {
-    min-height: 1045px;
-    max-height: 2090px;
-  }
-  .ns_orderinfo_3rdback {
-    min-height: 1045px;
-    max-height: 2090px;
-  }
-}
-.order-info-colxs-heitght {
-  min-height: 190px;
-  margin-bottom: 40px;
-}
-.ns_orderinfo__caption-large {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  margin-top: 78px;
-  margin-bottom: 10px;
-}
-.ns_orderinfo__caption-large h2 {
-  font-size: 36px !important;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.ns_orderinfo__caption-small {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  margin-top: 75px;
-  margin-bottom: 25px;
-}
-.ns_orderinfo__caption-small h2 {
-  font-size: 32px !important;
-}
+/* -------= nav-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -825,6 +520,7 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
+/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1029,6 +725,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1184,6 +881,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1266,6 +964,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1421,6 +1120,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1521,6 +1221,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,6 +1399,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2033,6 +1735,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2501,6 +2206,81 @@
   }
   .slider-block__link-details:before {
     display: none;
+  }
+}
+/* -------= slider-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= call-back-block =------- */
+.modal-block__custom {
+  border-radius: 0;
+}
+.modal-title__custom {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+}
+.form-control__custom {
+  text-align: center;
+  width: 252px;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
+}
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
+  background-color: #4994ce;
+}
+.alert-danger__custom {
+  text-align: center;
+}
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2975,76 +2755,315 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
+/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
+/* -------= advantage-block =------- */
+.q__margbot35 {
+  margin-bottom: 35px !important;
 }
-.modal-title__custom {
+.q__margbot50 {
+  margin-bottom: 50px !important;
+}
+.smallhex-1-img {
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  color: #282828;
+  font-size: 18px;
+  font-family: 'Ubuntu-Medium';
+  text-transform: uppercase;
+  display: block;
+  height: 102px;
+  width: 100%;
+  /*&:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 102px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }*/
+}
+.smallhex-1-img:before {
+  content: "";
+  width: 102px;
+  height: 102px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: url('../../static/img/advantage-block/1_clock.png') center center no-repeat;
+}
+.smallhex-2-img {
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  color: #282828;
+  font-size: 18px;
+  font-family: 'Ubuntu-Medium';
+  text-transform: uppercase;
+  display: block;
+  height: 102px;
+  width: 100%;
+  /*&:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 102px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }*/
+}
+.smallhex-2-img:before {
+  content: "";
+  width: 102px;
+  height: 102px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: url('../../static/img/advantage-block/2_like.png') center center no-repeat;
+}
+.smallhex-3-img {
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  color: #282828;
+  font-size: 18px;
+  font-family: 'Ubuntu-Medium';
+  text-transform: uppercase;
+  display: block;
+  height: 102px;
+  width: 100%;
+  /*&:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 102px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }*/
+}
+.smallhex-3-img:before {
+  content: "";
+  width: 102px;
+  height: 102px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: url('../../static/img/advantage-block/3_message.png') center center no-repeat;
+}
+.smallhex-4-img {
+  text-decoration: none !important;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  padding: 0;
+  border: 0 none;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  color: #282828;
+  font-size: 18px;
+  font-family: 'Ubuntu-Medium';
+  text-transform: uppercase;
+  display: block;
+  height: 102px;
+  width: 100%;
+  /*&:hover {
+        opacity: 0.9;
+
+        &:before {
+            content: "";
+            width: 102px;
+            height: @height;
+            .inlineblock;
+            background: @img2 center center no-repeat;
+            text-decoration: none;
+        }
+
+    }*/
+}
+.smallhex-4-img:before {
+  content: "";
+  width: 102px;
+  height: 102px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+  background: url('../../static/img/advantage-block/4_shield.png') center center no-repeat;
+}
+.hex-orderinfo-text {
+  padding-top: 0;
+  padding-bottom: 20px;
   text-transform: uppercase;
   font-family: 'Ubuntu-Medium';
+  font-size: 12px;
+}
+.hex-orderinfo-text p {
+  text-align: center;
+  margin-top: 4px;
+}
+.hex-orderinfo-text .hex-orderinfo-text__header {
+  font-family: 'Ubuntu-Medium';
   font-size: 18px;
+  margin-bottom: 6px;
 }
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
+.hex-orderinfo-text .hex-orderinfo-text__simple-text {
+  font-family: 'Ubuntu';
   font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
-}
-.modal-header__custom {
-  border-bottom: none;
-}
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
-}
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
-}
-.btn-primary__custom:hover {
-  background-color: #4994ce;
-}
-.alert-danger__custom {
-  text-align: center;
+  text-transform: none;
+  margin-bottom: 6px;
 }
 @media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
+  .ns_orderinfo__thumbs {
+    min-height: 217px;
   }
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
+  .ns_orderinfo__thumbs {
+    min-height: 276px;
+  }
+  .ns_orderinfo {
+    min-height: 418px;
+    height: 760px;
+  }
+  .ns_orderinfo_1stback {
+    min-height: 760px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_2ndback {
+    min-height: 760px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_3rdback {
+    min-height: 760px;
+    max-height: 2090px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
+  .ns_orderinfo__thumbs {
+    min-height: 330px;
+  }
+  .ns_orderinfo {
+    min-height: 418px;
+    height: 860px;
+  }
+  .ns_orderinfo_1stback {
+    min-height: 860px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_2ndback {
+    min-height: 860px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_3rdback {
+    min-height: 860px;
+    max-height: 2090px;
   }
 }
 @media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
+  .ns_orderinfo__thumbs {
+    min-height: 217px;
+  }
+  .ns_orderinfo {
+    min-height: 1045px;
+  }
+  .ns_orderinfo_1stback {
+    min-height: 1045px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_2ndback {
+    min-height: 1045px;
+    max-height: 2090px;
+  }
+  .ns_orderinfo_3rdback {
+    min-height: 1045px;
+    max-height: 2090px;
   }
 }
+.order-info-colxs-heitght {
+  min-height: 190px;
+  margin-bottom: 40px;
+}
+.ns_orderinfo__caption-large {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  margin-top: 78px;
+  margin-bottom: 10px;
+}
+.ns_orderinfo__caption-large h2 {
+  font-size: 36px !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ns_orderinfo__caption-small {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+.ns_orderinfo__caption-small h2 {
+  font-size: 32px !important;
+}
+/* -------= advantage-block =------- */

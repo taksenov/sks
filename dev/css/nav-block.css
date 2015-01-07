@@ -158,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -166,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -239,163 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= nav-block =------- */
-.nav-block {
-  background-color: #333333;
-}
-.navbar-delete-styles {
-  background-color: #333333;
-  border-color: transparent;
-  min-height: 0;
-  margin-bottom: 0;
-  border-radius: 0;
-  z-index: 1000;
-  border: none !important;
-}
-.navbar-custom {
-  border: none;
-  border-radius: 0;
-  min-height: 40px;
-  background-color: #333333;
-  border-color: transparent;
-  z-index: 1000;
-  margin: 0;
-}
-.navbar-custom ul li a {
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 40px;
-  line-height: 40px !important;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Ubuntu';
-  font-size: 14px;
-}
-.navbar-custom ul li a:hover {
-  background-color: #414141 !important;
-  color: #54adf1;
-}
-.menu-link_active {
-  background-color: #54adf1;
-}
-.navbar__no-padding_right_left {
-  padding-left: 0;
-  padding-right: 0;
-}
-.navbar-button_custom {
-  margin: 0;
-  margin-top: 1px;
-}
-/* -------= custom media querie for navbar  =------- */
-@media screen and (max-width: 995px) and (min-width: 768px) {
-  .navbar-custom,
-  .ns_navbar {
-    height: 80px;
-  }
-}
-/* -------= custom media querie for navbar  =------- */
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background-color: #414141;
-}
-.dropdown-menu {
-  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
-  zoom: 1 !ie;
-  background-color: #414141;
-  border-radius: 0;
-  border-top: 2px solid #54adf1;
-}
-.dropdown-menu:before,
-.dropdown-menu:after {
-  content: "";
-  display: table;
-}
-.dropdown-menu:after {
-  clear: both;
-}
-.dropdown-menu-link-font-size {
-  font-family: 'Ubuntu';
-  font-size: 12px !important;
-}
-.dropdown-menu .divider {
-  margin: 0;
-  background-color: #545454;
-}
-.navbar-default {
-  background-color: #333333;
-  border-color: #414141;
-  text-transform: uppercase;
-  font-family: 'Ubuntu-Medium';
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #414141;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffffff;
-  background-color: #414141;
-}
-.navbar-default .navbar-toggle {
-  border-color: #414141;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #414141;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffffff;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #414141;
-  }
-}
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -706,6 +553,7 @@
 .ns_orderinfo__caption-small h2 {
   font-size: 32px !important;
 }
+/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -825,6 +673,7 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
+/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1029,6 +878,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1184,6 +1034,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1266,6 +1117,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1421,6 +1273,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1521,6 +1374,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1698,6 +1552,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2033,6 +1888,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2501,6 +2359,81 @@
   }
   .slider-block__link-details:before {
     display: none;
+  }
+}
+/* -------= slider-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= call-back-block =------- */
+.modal-block__custom {
+  border-radius: 0;
+}
+.modal-title__custom {
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+}
+.form-control__custom {
+  text-align: center;
+  width: 252px;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 0;
+  margin: auto;
+}
+.modal-header__custom {
+  border-bottom: none;
+}
+.modal-footer__custom {
+  border-top: none;
+  margin: auto;
+  text-align: center;
+}
+.btn-primary__custom {
+  height: 46px;
+  width: 165px;
+  text-transform: uppercase;
+  background-color: #54adf1;
+  border: none;
+}
+.btn-primary__custom:hover {
+  background-color: #4994ce;
+}
+.alert-danger__custom {
+  text-align: center;
+}
+@media screen and (min-width: 1201px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) {
+  .modal-dialog__custom {
+    width: 360px;
+    height: 304px;
+    margin: auto;
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-dialog__custom {
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /* -------= imports =------- */
@@ -2975,76 +2908,162 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
+/* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= call-back-block =------- */
-.modal-block__custom {
-  border-radius: 0;
+/* -------= nav-block =------- */
+.nav-block {
+  background-color: #333333;
 }
-.modal-title__custom {
+.navbar-delete-styles {
+  background-color: #333333;
+  border-color: transparent;
+  min-height: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  z-index: 1000;
+  border: none !important;
+}
+.navbar-custom {
+  border: none;
+  border-radius: 0;
+  min-height: 40px;
+  background-color: #333333;
+  border-color: transparent;
+  z-index: 1000;
+  margin: 0;
+}
+.navbar-custom ul li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 40px;
+  line-height: 40px !important;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+}
+.navbar-custom ul li a:hover {
+  background-color: #414141 !important;
+  color: #54adf1;
+}
+.menu-link_active {
+  background-color: #54adf1;
+}
+.navbar__no-padding_right_left {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-button_custom {
+  margin: 0;
+  margin-top: 1px;
+}
+/* -------= custom media querie for navbar  =------- */
+@media screen and (max-width: 995px) and (min-width: 768px) {
+  .navbar-custom,
+  .ns_navbar {
+    height: 80px;
+  }
+}
+/* -------= custom media querie for navbar  =------- */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #414141;
+}
+.dropdown-menu {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+  background-color: #414141;
+  border-radius: 0;
+  border-top: 2px solid #54adf1;
+}
+.dropdown-menu:before,
+.dropdown-menu:after {
+  content: "";
+  display: table;
+}
+.dropdown-menu:after {
+  clear: both;
+}
+.dropdown-menu-link-font-size {
+  font-family: 'Ubuntu';
+  font-size: 12px !important;
+}
+.dropdown-menu .divider {
+  margin: 0;
+  background-color: #545454;
+}
+.navbar-default {
+  background-color: #333333;
+  border-color: #414141;
   text-transform: uppercase;
   font-family: 'Ubuntu-Medium';
-  font-size: 18px;
 }
-.form-control__custom {
-  text-align: center;
-  width: 252px;
-  height: 46px;
-  padding: 6px 12px;
-  font-size: 14px;
-  border: 1px solid #999999;
-  border-radius: 0;
-  margin: auto;
+.navbar-default .navbar-brand {
+  color: #ffffff;
 }
-.modal-header__custom {
-  border-bottom: none;
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
 }
-.modal-footer__custom {
-  border-top: none;
-  margin: auto;
-  text-align: center;
+.navbar-default .navbar-text {
+  color: #ffffff;
 }
-.btn-primary__custom {
-  height: 46px;
-  width: 165px;
-  text-transform: uppercase;
-  background-color: #54adf1;
-  border: none;
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
 }
-.btn-primary__custom:hover {
-  background-color: #4994ce;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
 }
-.alert-danger__custom {
-  text-align: center;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #414141;
 }
-@media screen and (min-width: 1201px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #414141;
+}
+.navbar-default .navbar-toggle {
+  border-color: #414141;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #414141;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #414141;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 993px) {
-  .modal-dialog__custom {
-    width: 360px;
-    height: 304px;
-    margin: auto;
-    margin-top: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .modal-dialog__custom {
-    margin: auto;
-    margin-top: 100px;
-  }
-}
+/* -------= nav-block =------- */
