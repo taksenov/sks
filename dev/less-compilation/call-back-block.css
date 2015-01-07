@@ -759,6 +759,14 @@
   margin-bottom: 15px;
   border-bottom: 5px solid #d4d4d4;
 }
+.service-light-xs {
+  background-color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 5px solid #d4d4d4;
+}
 .preference-block__margintop {
   margin-top: 30px;
 }
@@ -799,6 +807,15 @@
   background-color: #54adf1;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-top: 5px solid #4690c8;
+  border-bottom: none;
+}
+.button-hover:hover .service-light-xs {
+  background-color: #54adf1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   border-top: 5px solid #4690c8;
   border-bottom: none;
 }
@@ -1938,7 +1955,7 @@
 /* -------= variables =------- */
 /* -------= variables =------- */
 /* -------= slider-block =------- */
-.carousel-indicators .indicator-white.active {
+.main-slider__carousel-indicators .indicator-white.active {
   width: 13px;
   height: 13px;
   margin: 0;
@@ -1949,7 +1966,7 @@
   filter: alpha(opacity=100);
   opacity: 1;
 }
-.carousel-indicators .indicator-white {
+.main-slider__carousel-indicators .indicator-white {
   width: 13px;
   height: 13px;
   margin: 0;
@@ -1973,8 +1990,8 @@
     width: 100%;
     height: 100%;
   }
-  .carousel-indicators {
-    bottom: 22px;
+  .main-slider__carousel-indicators {
+    bottom: 22px !important;
   }
   .slider-block__no-carousel-paddings {
     padding: 0 !important;
@@ -2084,8 +2101,8 @@
   .q_peopleCarouselImg {
     height: 100%;
   }
-  .carousel-indicators {
-    bottom: 22px;
+  .main-slider__carousel-indicators {
+    bottom: 22px !important;
   }
   .slider-block__no-carousel-paddings {
     padding: 0 !important;
@@ -2195,8 +2212,8 @@
   .q_peopleCarouselImg {
     height: 100%;
   }
-  .carousel-indicators {
-    bottom: 22px;
+  .main-slider__carousel-indicators {
+    bottom: 22px !important;
   }
   .slider-block__no-carousel-paddings {
     padding: 0 !important;
@@ -2307,8 +2324,8 @@
     min-height: 500px;
     height: 100%;
   }
-  .carousel-indicators {
-    bottom: 22px;
+  .main-slider__carousel-indicators {
+    bottom: 22px !important;
   }
   .slider-block__no-carousel-paddings {
     padding: 0 !important;
@@ -2355,7 +2372,7 @@
          */
     font-family: 'Ubuntu';
     margin-top: 13px;
-    margin-left: 65px;
+    margin-left: 45px;
     text-transform: uppercase;
     text-shadow: none;
     width: 165px;
@@ -2948,6 +2965,292 @@
 .geografy-block__towns ul {
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
+}
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= service-block =------- */
+.service-block {
+  background-color: #ffffff;
+  min-height: 546px;
+}
+.service-block p,
+.service-block h2 {
+  margin: 0;
+  padding: 0;
+}
+.service-block__header {
+  color: #282828;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  margin-top: 49px;
+  margin-bottom: 21px;
+}
+.service-block__text {
+  color: #282828;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  line-height: 23px;
+}
+.service-block__text-margbot {
+  margin-bottom: 39px;
+}
+.service-block__link {
+  color: #282828;
+  text-decoration: none;
+}
+.service-block__link:hover {
+  color: #282828;
+  text-decoration: underline;
+}
+.service-block__no-pad-left-right {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom-color: transparent !important;
+  padding-top: 0;
+}
+.service-block__no-border {
+  border: none !important;
+  border-bottom-color: transparent !important;
+  box-shadow: none !important;
+}
+.service-block__link {
+  font-family: 'Ubuntu-Medium';
+  font-size: 14px;
+  color: #54adf1 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.service-block__link:hover {
+  text-decoration: none;
+}
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= nav-block =------- */
+.service-nav-block {
+  background-color: #e8e8e8 !important;
+}
+.service-navbar-delete-styles {
+  background-color: #e8e8e8 !important;
+  border-color: transparent;
+  min-height: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  z-index: 1000;
+  border: none !important;
+}
+.service-navbar-custom {
+  border: none;
+  border-radius: 0;
+  min-height: 40px;
+  background-color: #e8e8e8 !important;
+  border-color: transparent;
+  z-index: 1000;
+  margin: 0;
+}
+.service-navbar-custom ul li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 40px;
+  line-height: 40px !important;
+  color: #282828;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+}
+.service-navbar-custom ul li a:hover {
+  background-color: #414141 !important;
+  color: #54adf1 !important;
+}
+.service-menu-link_active {
+  background-color: #54adf1;
+  color: #ffffff !important;
+}
+.navbar__no-padding_right_left {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-button_custom {
+  margin: 0;
+  margin-top: 1px;
+}
+/* -------= custom media querie for navbar  =------- */
+/* -------= custom media querie for navbar  =------- */
+.service-navbar-default .navbar-nav > .open > a,
+.service-navbar-default .navbar-nav > .open > a:hover,
+.service-navbar-default .navbar-nav > .open > a:focus {
+  background-color: #414141;
+}
+.dropdown-menu {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+  background-color: #e8e8e8;
+  border-radius: 0;
+  border-top: 2px solid #54adf1;
+}
+.dropdown-menu:before,
+.dropdown-menu:after {
+  content: "";
+  display: table;
+}
+.dropdown-menu:after {
+  clear: both;
+}
+.dropdown-menu-link-font-size {
+  font-family: 'Ubuntu';
+  font-size: 12px !important;
+}
+.dropdown-menu .divider {
+  margin: 0;
+  background-color: #545454;
+}
+.service-navbar-default {
+  background-color: #333333;
+  border-color: #414141;
+  text-transform: uppercase;
+  font-family: 'Ubuntu-Medium';
+}
+.service-navbar-default .navbar-brand {
+  color: #282828;
+}
+.service-navbar-default .navbar-brand:hover,
+.service-navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.service-navbar-default .navbar-text {
+  color: #282828;
+}
+.service-navbar-default .navbar-nav > li > a {
+  color: #282828;
+}
+.service-navbar-default .navbar-nav > li > a:hover,
+.service-navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.service-navbar-default .navbar-nav > .active > a,
+.service-navbar-default .navbar-nav > .active > a:hover,
+.service-navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #414141;
+}
+.service-navbar-default .navbar-nav > .open > a,
+.service-navbar-default .navbar-nav > .open > a:hover,
+.service-navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #414141;
+}
+.service-navbar-default .navbar-toggle {
+  border-color: #414141;
+}
+.service-navbar-default .navbar-toggle:hover,
+.service-navbar-default .navbar-toggle:focus {
+  background-color: #414141;
+}
+.service-navbar-default .navbar-toggle .icon-bar {
+  background-color: #282828;
+}
+.service-navbar-default .navbar-collapse,
+.service-navbar-default .navbar-form {
+  border-color: #282828;
+}
+.service-navbar-default .navbar-link {
+  color: #282828;
+}
+.service-navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #282828;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #414141;
+  }
+}
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= logo-block =------- */
+.service-logo-block {
+  background-color: #ffffff;
+  color: #282828;
+  min-height: 97px;
+}
+.service-logo-block__text {
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.service-logo-block__phone-number span {
+  font-family: 'Ubuntu-Medium';
+  font-size: 24px;
+  line-height: 24px;
+  color: #282828;
+}
+.service-logo-block__phone-link a {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  text-decoration: underline;
+  color: #54adf1;
+}
+.service-logo-block__phone-link a:hover {
+  text-decoration: none;
+}
+.service-logo-block__no-left-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.service-logo-block__logoblock__logo {
+  height: 71px;
+  position: relative;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:before,
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  content: "";
+  display: table;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  clear: both;
+}
+.service-logo-block__xs-margbot {
+  margin-bottom: 25px;
+}
+.service-logo-block__lg-margtop {
+  margin-top: 25px;
+}
+.service-logo-block__lg-margtop-logoimg {
+  margin-top: 10px;
+}
+.service-logo-block__md-margtop {
+  margin-top: 20px;
+}
+.service-logo-block__md-margtop-logoimg,
+.service-logo-block__xs-margtop-logoimg {
+  margin-top: 8px;
 }
 /* -------= imports =------- */
 /* -------= variables =------- */

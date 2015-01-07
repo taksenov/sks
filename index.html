@@ -113,9 +113,9 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-sm-1 col-mg-1 col-lg-2"></div>
+                    <div class="col-sm-1 col-md-1 col-lg-2"></div>
 
-                    <div class="col-sm-10 col-mg-10 col-lg-9">
+                    <div class="col-sm-10 col-md-10 col-lg-9">
                         <nav class="navbar navbar-default navbar-delete-styles" role="navigation">
 
                             <!--<div class="container">-->
@@ -192,7 +192,7 @@
                             <!--</div>-->
                         </nav>
                     </div>
-                    <div class="col-sm-1 col-mg-1 col-lg-1"></div>
+                    <div class="col-sm-1 col-md-1 col-lg-1"></div>
                 </div>
             </div>
         </section>
@@ -202,7 +202,7 @@
         <div id="carousel-example-generic-main" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators main-slider__carousel-indicators">
                 <li data-target="#carousel-example-generic-main" data-slide-to="0" class="indicator-white active"></li>
                 <li data-target="#carousel-example-generic-main" data-slide-to="1" class="indicator-white"></li>
             </ol>
@@ -214,8 +214,10 @@
                     <div class="carousel-caption slider-block__no-carousel-paddings">
 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 text-left slider-block__no-pad-left">
+
+                            <!-- отображение на устройствах на всех устройствах кроме телефонов -->
+                            <div class="row hidden-xs">
+                                <div class="col-sm-12 col-md-8 col-lg-6 text-left slider-block__no-pad-left">
                                     <div class="slider-block__header">
                                         214 ФЗ Страхование ответственности застройщика
                                     </div>
@@ -247,6 +249,45 @@
                                 </div>
                                 <div class="col-md-6 col-lg-6"></div>
                             </div>
+                            <!-- отображение на устройствах на всех устройствах кроме телефонов -->
+
+                            <!-- отображение на телефонах -->
+                            <div class="row hidden-sm hidden-md hidden-lg text-left">
+                                <div class="col-xs-12">
+                                    <div class="slider-block__header">
+                                        214 ФЗ Страхование ответственности застройщика
+                                    </div>
+                                    <div class="slider-block__list">
+                                        <ul>
+                                            <li>
+                                                <span>
+                                                    ТАРИФЫ от 0,5%
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Работаем со всеми страховыми
+                                                    <br/>
+                                                    компаниями с лицензией ЦБ.
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Квалифицированные специалисты
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider-block__link">
+                                        <a href="" class="slider-block__link-details doit" data-toggle="modal">Подробнее</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- отображение на телефонах -->
+
+
                         </div>
 
 
@@ -258,8 +299,11 @@
                     <div class="carousel-caption slider-block__no-carousel-paddings">
 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 text-left slider-block__no-pad-left">
+
+
+                            <!-- отображение на устройствах на всех устройствах кроме телефонов -->
+                            <div class="row hidden-xs">
+                                <div class="col-sm-12 col-md-8 col-lg-6 text-left slider-block__no-pad-left">
                                     <div class="slider-block__header">
                                         ПОЛУЧЕНИЕ ДОПУСКА СРО
                                     </div>
@@ -300,6 +344,53 @@
                                 </div>
                                 <div class="col-md-6 col-lg-6"></div>
                             </div>
+                            <!-- отображение на устройствах на всех устройствах кроме телефонов -->
+
+                            <!-- отображение на телефонах -->
+                            <div class="row hidden-sm hidden-md hidden-lg text-left ">
+                                <div class="col-xs-12">
+                                    <div class="slider-block__header">
+                                        ПОЛУЧЕНИЕ ДОПУСКА СРО
+                                    </div>
+                                    <div class="slider-block__list">
+                                        <ul>
+                                            <li>
+                                                <span>
+                                                    Легитимность компаний и
+                                                    <br/>
+                                                    выдаваемой документации
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Оптимизируем временные и
+                                                    <br/>
+                                                    денежные затраты.
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Высокая квалификация
+                                                    <br/>
+                                                    специалистов
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Гарантируем исполнение под ключ
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider-block__link">
+                                        <a href="" class="slider-block__link-details doit" data-toggle="modal">Подробнее</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- отображение на телефонах -->
+
                         </div>
 
 
@@ -556,14 +647,14 @@
                             <!-- отображение только на телефонах -->
                             <div class="button-hover">
                                 <a href="">
-                                <div class="col-xs-12 col-sm-12 col-md-12 service-light hidden-lg">
-                                        <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg">
+                                        <div class="row service-light-xs">
                                             <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 button-1__image"></div>
                                             <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
-                                                <h2 class="details-block__header-text-xs text-center">
+                                                <h2 class="details-block__header-text-xs text-left">
                                                     Получение допуска СРО
                                                 </h2>
-                                                <p class="preference-block__text text-center">
+                                                <p class="preference-block__text text-left">
                                                     Поможем получить допуск
                                                     в надежной, проверенной СРО
 
@@ -603,14 +694,14 @@
                             <!-- отображение только на телефонах -->
                             <div class="button-hover">
                                 <a href="">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 service-light hidden-lg">
-                                        <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg">
+                                        <div class="row service-light-xs">
                                             <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 button-2__image"></div>
                                             <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
-                                                <h2 class="details-block__header-text-xs text-center">
+                                                <h2 class="details-block__header-text-xs text-left">
                                                     Страхование застройщиков по 214 ФЗ
                                                 </h2>
-                                                <p class="preference-block__text text-center">
+                                                <p class="preference-block__text text-left">
                                                     Подбор вариантов во всех аккредитованных компаниях
 
                                                 </p>
@@ -649,14 +740,14 @@
                             <!-- отображение только на телефонах -->
                             <div class="button-hover about-company__margbot50">
                                 <a href="">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 service-light hidden-lg">
-                                        <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg">
+                                        <div class="row service-light-xs">
                                             <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 button-3__image"></div>
                                             <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
-                                                <h2 class="details-block__header-text-xs text-center">
+                                                <h2 class="details-block__header-text-xs text-left">
                                                      Банковская гарантия 44 ФЗ
                                                 </h2>
-                                                <p class="preference-block__text text-center">
+                                                <p class="preference-block__text text-left">
                                                     Подбор одновременно в 20 банках
 
                                                 </p>

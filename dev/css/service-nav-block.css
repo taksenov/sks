@@ -1,4 +1,5 @@
 /* -------= imports =------- */
+/* -------= imports =------- */
 /* MIXINS */
 /* by https://bitbucket.org/wowua/ */
 .inlineblock {
@@ -157,6 +158,7 @@
 .myriad-sb {
   font-family: "MyriadPro-Semibold";
 }
+/* ------------------------------------------- */
 /* Примесь для кнопки */
 /* яндекс кнопка */
 /* Примесь для кнопки */
@@ -165,6 +167,8 @@
 /* -------= Примесь для кнопки =------- */
 /* -------= Примесь для кнопки =------- */
 /* sks anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* Примесь для инпута */
 /* Примесь для инпута */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -238,6 +242,7 @@
 .logo-block__xs-margtop-logoimg {
   margin-top: 8px;
 }
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -395,6 +400,7 @@
     background-color: #414141;
   }
 }
+/* -------= nav-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -705,6 +711,7 @@
 .ns_orderinfo__caption-small h2 {
   font-size: 32px !important;
 }
+/* -------= advantage-block =------- */
 /* примесь для инфо меню */
 /* -------= imports =------- */
 /* -------= imports =------- */
@@ -841,6 +848,7 @@
 .button-hover:hover .preference-block__text {
   color: #FFFFFF;
 }
+/* -------= white-blocks =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1045,6 +1053,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= how-works-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1200,6 +1209,7 @@
   margin-bottom: 25px !important;
   color: #0b060f;
 }
+/* -------= free-help-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1282,6 +1292,7 @@
   height: 3px;
   z-index: 1;
 }
+/* -------= about-company-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1437,6 +1448,7 @@
 .individual-approach__order-button:before {
   display: none;
 }
+/* -------= individual-approach-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1537,6 +1549,7 @@
 .call-back__order-button:before {
   display: none;
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -1714,6 +1727,7 @@
   font-family: 'Ubuntu-Medium';
   font-size: 14px;
 }
+/* -------= footer-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2049,6 +2063,9 @@
     bottom: -65px;
   }
 }
+/* телефоны */
+/* -------= медиазапросы для слайдера фидбека =------- */
+/* -------= feed-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -2519,6 +2536,7 @@
     display: none;
   }
 }
+/* -------= slider-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -3065,6 +3083,7 @@
   list-style-image: url('../../static/img/geografy/town-marker-lg.png');
   /* Путь к изображению маркера */
 }
+/* -------= call-back-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -3127,6 +3146,80 @@
 .service-block__link:hover {
   text-decoration: none;
 }
+/* -------= service-block =------- */
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= logo-block =------- */
+.service-logo-block {
+  background-color: #ffffff;
+  color: #282828;
+  min-height: 97px;
+}
+.service-logo-block__text {
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.service-logo-block__phone-number span {
+  font-family: 'Ubuntu-Medium';
+  font-size: 24px;
+  line-height: 24px;
+  color: #282828;
+}
+.service-logo-block__phone-link a {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  text-decoration: underline;
+  color: #54adf1;
+}
+.service-logo-block__phone-link a:hover {
+  text-decoration: none;
+}
+.service-logo-block__no-left-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.service-logo-block__logoblock__logo {
+  height: 71px;
+  position: relative;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:before,
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  content: "";
+  display: table;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  clear: both;
+}
+.service-logo-block__xs-margbot {
+  margin-bottom: 25px;
+}
+.service-logo-block__lg-margtop {
+  margin-top: 25px;
+}
+.service-logo-block__lg-margtop-logoimg {
+  margin-top: 10px;
+}
+.service-logo-block__md-margtop {
+  margin-top: 20px;
+}
+.service-logo-block__md-margtop-logoimg,
+.service-logo-block__xs-margtop-logoimg {
+  margin-top: 8px;
+}
+/* -------= logo-block =------- */
 /* -------= imports =------- */
 /* -------= imports =------- */
 /* -------= variables =------- */
@@ -3279,75 +3372,4 @@
     background-color: #414141;
   }
 }
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= logo-block =------- */
-.service-logo-block {
-  background-color: #ffffff;
-  color: #282828;
-  min-height: 97px;
-}
-.service-logo-block__text {
-  font-family: 'Ubuntu-Medium';
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.service-logo-block__phone-number span {
-  font-family: 'Ubuntu-Medium';
-  font-size: 24px;
-  line-height: 24px;
-  color: #282828;
-}
-.service-logo-block__phone-link a {
-  font-family: 'Ubuntu';
-  font-size: 14px;
-  text-decoration: underline;
-  color: #54adf1;
-}
-.service-logo-block__phone-link a:hover {
-  text-decoration: none;
-}
-.service-logo-block__no-left-pad {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.service-logo-block__logoblock__logo {
-  height: 71px;
-  position: relative;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
-  zoom: 1 !ie;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:before,
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
-  content: "";
-  display: table;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
-  clear: both;
-}
-.service-logo-block__xs-margbot {
-  margin-bottom: 25px;
-}
-.service-logo-block__lg-margtop {
-  margin-top: 25px;
-}
-.service-logo-block__lg-margtop-logoimg {
-  margin-top: 10px;
-}
-.service-logo-block__md-margtop {
-  margin-top: 20px;
-}
-.service-logo-block__md-margtop-logoimg,
-.service-logo-block__xs-margtop-logoimg {
-  margin-top: 8px;
-}
+/* -------= nav-block =------- */

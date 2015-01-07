@@ -1,4 +1,5 @@
 /* -------= imports =------- */
+/* -------= imports =------- */
 /* MIXINS */
 /* by https://bitbucket.org/wowua/ */
 .inlineblock {
@@ -3131,6 +3132,77 @@
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
+/* -------= logo-block =------- */
+.service-logo-block {
+  background-color: #ffffff;
+  color: #282828;
+  min-height: 97px;
+}
+.service-logo-block__text {
+  font-family: 'Ubuntu-Medium';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.service-logo-block__phone-number span {
+  font-family: 'Ubuntu-Medium';
+  font-size: 24px;
+  line-height: 24px;
+  color: #282828;
+}
+.service-logo-block__phone-link a {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  text-decoration: underline;
+  color: #54adf1;
+}
+.service-logo-block__phone-link a:hover {
+  text-decoration: none;
+}
+.service-logo-block__no-left-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.service-logo-block__logoblock__logo {
+  height: 71px;
+  position: relative;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:before,
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  content: "";
+  display: table;
+}
+.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
+  clear: both;
+}
+.service-logo-block__xs-margbot {
+  margin-bottom: 25px;
+}
+.service-logo-block__lg-margtop {
+  margin-top: 25px;
+}
+.service-logo-block__lg-margtop-logoimg {
+  margin-top: 10px;
+}
+.service-logo-block__md-margtop {
+  margin-top: 20px;
+}
+.service-logo-block__md-margtop-logoimg,
+.service-logo-block__xs-margtop-logoimg {
+  margin-top: 8px;
+}
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
 /* -------= nav-block =------- */
 .service-nav-block {
   background-color: #e8e8e8 !important;
@@ -3278,76 +3350,4 @@
     color: #ffffff;
     background-color: #414141;
   }
-}
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
-/* -------= logo-block =------- */
-.service-logo-block {
-  background-color: #ffffff;
-  color: #282828;
-  min-height: 97px;
-}
-.service-logo-block__text {
-  font-family: 'Ubuntu-Medium';
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.service-logo-block__phone-number span {
-  font-family: 'Ubuntu-Medium';
-  font-size: 24px;
-  line-height: 24px;
-  color: #282828;
-}
-.service-logo-block__phone-link a {
-  font-family: 'Ubuntu';
-  font-size: 14px;
-  text-decoration: underline;
-  color: #54adf1;
-}
-.service-logo-block__phone-link a:hover {
-  text-decoration: none;
-}
-.service-logo-block__no-left-pad {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.service-logo-block__logoblock__logo {
-  height: 71px;
-  position: relative;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
-  zoom: 1 !ie;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:before,
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
-  content: "";
-  display: table;
-}
-.service-logo-block__logoblock__logo .service-logo-block__logo-centered:after {
-  clear: both;
-}
-.service-logo-block__xs-margbot {
-  margin-bottom: 25px;
-}
-.service-logo-block__lg-margtop {
-  margin-top: 25px;
-}
-.service-logo-block__lg-margtop-logoimg {
-  margin-top: 10px;
-}
-.service-logo-block__md-margtop {
-  margin-top: 20px;
-}
-.service-logo-block__md-margtop-logoimg,
-.service-logo-block__xs-margtop-logoimg {
-  margin-top: 8px;
 }

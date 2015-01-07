@@ -1,4 +1,5 @@
 /* -------= imports =------- */
+/* -------= imports =------- */
 /* MIXINS */
 /* by https://bitbucket.org/wowua/ */
 .inlineblock {
@@ -3069,68 +3070,6 @@
 /* -------= imports =------- */
 /* -------= variables =------- */
 /* -------= variables =------- */
-/* -------= service-block =------- */
-.service-block {
-  background-color: #ffffff;
-  min-height: 546px;
-}
-.service-block p,
-.service-block h2 {
-  margin: 0;
-  padding: 0;
-}
-.service-block__header {
-  color: #282828;
-  text-transform: uppercase;
-  font-family: 'Ubuntu';
-  font-size: 16px;
-  margin-top: 49px;
-  margin-bottom: 21px;
-}
-.service-block__text {
-  color: #282828;
-  font-family: 'Ubuntu';
-  font-size: 14px;
-  line-height: 23px;
-}
-.service-block__text-margbot {
-  margin-bottom: 39px;
-}
-.service-block__link {
-  color: #282828;
-  text-decoration: none;
-}
-.service-block__link:hover {
-  color: #282828;
-  text-decoration: underline;
-}
-.service-block__no-pad-left-right {
-  padding-left: 0;
-  padding-right: 0;
-  background-color: transparent !important;
-  border: none !important;
-  border-bottom-color: transparent !important;
-  padding-top: 0;
-}
-.service-block__no-border {
-  border: none !important;
-  border-bottom-color: transparent !important;
-  box-shadow: none !important;
-}
-.service-block__link {
-  font-family: 'Ubuntu-Medium';
-  font-size: 14px;
-  color: #54adf1 !important;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.service-block__link:hover {
-  text-decoration: none;
-}
-/* -------= imports =------- */
-/* -------= imports =------- */
-/* -------= variables =------- */
-/* -------= variables =------- */
 /* -------= nav-block =------- */
 .service-nav-block {
   background-color: #e8e8e8 !important;
@@ -3350,4 +3289,65 @@
 .service-logo-block__md-margtop-logoimg,
 .service-logo-block__xs-margtop-logoimg {
   margin-top: 8px;
+}
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+/* -------= service-block =------- */
+.service-block {
+  background-color: #ffffff;
+  min-height: 546px;
+}
+.service-block p,
+.service-block h2 {
+  margin: 0;
+  padding: 0;
+}
+.service-block__header {
+  color: #282828;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  margin-top: 49px;
+  margin-bottom: 21px;
+}
+.service-block__text {
+  color: #282828;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  line-height: 23px;
+}
+.service-block__text-margbot {
+  margin-bottom: 39px;
+}
+.service-block__link {
+  color: #282828;
+  text-decoration: none;
+}
+.service-block__link:hover {
+  color: #282828;
+  text-decoration: underline;
+}
+.service-block__no-pad-left-right {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom-color: transparent !important;
+  padding-top: 0;
+}
+.service-block__no-border {
+  border: none !important;
+  border-bottom-color: transparent !important;
+  box-shadow: none !important;
+}
+.service-block__link {
+  font-family: 'Ubuntu-Medium';
+  font-size: 14px;
+  color: #54adf1 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.service-block__link:hover {
+  text-decoration: none;
 }

@@ -1,0 +1,85 @@
+/* -------= imports =------- */
+@import "main";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@service-block-background: #ffffff;
+@service-block-height: 546px;
+@service-block-text: #282828;
+
+/* -------= variables =------- */
+
+/* -------= service-block =------- */
+.service-block {
+    background-color: @service-block-background;
+    min-height: @service-block-height;
+}
+.service-block {
+    p, h2 {
+        margin: 0;
+        padding: 0;
+    }
+}
+.service-block__header {
+    color:  @service-block-text;
+    text-transform: uppercase;
+    .ubuntu;
+    font-size: 16px;
+    margin-top: 49px;
+    margin-bottom: 21px;
+}
+.service-block__text {
+    color:  @service-block-text;
+    .ubuntu;
+    font-size: 14px;
+    line-height: 23px;
+}
+.service-block__text-margbot {
+    margin-bottom: 39px;
+}
+.service-block__link {
+    color: @service-block-text;
+    text-decoration: none;
+    &:hover {
+        color: @service-block-text;
+        text-decoration: underline;
+    }
+}
+.service-block__no-pad-left-right {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom-color: transparent !important;
+    padding-top: 0;
+}
+.service-block__no-border {
+    border: none !important;
+    border-bottom-color: transparent !important;
+    box-shadow: none !important;
+}
+.service-block__link {
+    .ubuntu-m;
+    font-size: 14px;
+    color: #54adf1 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.panel-group .panel + .panel {
+    //margin-top: -4px !important;
+}
+/* -------= service-block =------- */
+
+
+
+
+
+
+
+
+
+
+
