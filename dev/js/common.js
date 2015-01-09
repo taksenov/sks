@@ -8,10 +8,35 @@
             app.setUpListeners();
         },
 
+        // Переменные, заданные как свойства app
+        countDownclock : $('.time-block__digits'),    //часы обратного отсчета
+        //-------------------------------------
+
         // подключает прослушку событий
         setUpListeners: function () {
-              $('.doit').on('click', app.showModal);                         // клик на "Оформить заказ"
-              $('#modalSubmit').on('click', app.checkUserData);              //проверить введенны ли данные пользователя в модальном окне
+            var _this = this;
+
+            $('.doit').on('click', app.showModal);                         // клик на "Оформить заказ"
+            $('#modalSubmit').on('click', app.checkUserData);              //проверить введенны ли данные пользователя в модальном окне
+            /* Для того чтоб при загрузке страницы в FireFox
+            часы обратного отсчета нормально отображались */
+            $(document).ready($.proxy(_this.loadPageInFirefox, _this));
+        },
+
+
+        //загрузка страницы в броузере firefox
+        loadPageInFirefox: function () {
+            var _this = this;
+
+            /* Для того чтоб часы обратного отсчета нормально
+            отображались в FireFox */
+            ua = navigator.userAgent;
+            if ( (ua.search(/Firefox/) > -1)) {
+                _this.countDownclock.css({
+                    'top' : 10
+            });
+            }
+            /* -------------------------------- */
         },
 
         // показывает корзину
