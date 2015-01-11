@@ -1,4 +1,3 @@
-
 (function() {
 
     var app = {
@@ -21,7 +20,20 @@
             /* Для того чтоб при загрузке страницы в FireFox
             часы обратного отсчета нормально отображались */
             $(document).ready($.proxy(_this.loadPageInFirefox, _this));
+            // -- слайдер к блоку с контактами
+            $('.scrollToContacts').on('click', app.scrollToContacts);
         },
+
+        // -- функция скролла к контактам
+        scrollToContacts: function (e) {
+            e.preventDefault();
+
+            var offset = $('.footer-block').offset().top;
+
+            $('html, body').animate({scrollTop: (offset -0)},800);
+
+        },
+        // -- функция скролла к контактам
 
 
         //загрузка страницы в броузере firefox

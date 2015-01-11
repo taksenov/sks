@@ -145,7 +145,7 @@
             margin: 0;
             padding: 0;
             text-transform: uppercase;
-            .ubuntu;
+            .ubuntu-l;
             font-size: 36px;
         }
     }
@@ -234,7 +234,7 @@
             margin: 0;
             padding: 0;
             text-transform: uppercase;
-            .ubuntu;
+            .ubuntu-l;
             font-size: 36px;
         }
     }
@@ -322,7 +322,7 @@
             margin: 0;
             padding: 0;
             text-transform: uppercase;
-            .ubuntu;
+            .ubuntu-l;
             font-size: 36px;
         }
     }
@@ -378,7 +378,7 @@
 /* малые экраны */
 
 /* телефоны */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 436px) and (max-width: 768px) {
     .feed-back__main-text {
         .ubuntu;
         font-size: 14px;
@@ -413,7 +413,7 @@
             margin: 0;
             padding: 0;
             text-transform: uppercase;
-            .ubuntu;
+            .ubuntu-l;
             font-size: 36px;
         }
     }
@@ -457,7 +457,281 @@
         margin-right: 10px;
     }
     .carousel-indicators {
-        bottom: -65px;
+        bottom: 40px;
+    }
+    .feed-back-block {
+        background-color: @feed-back-block-background;
+        min-height: @feed-back-block-height;
+        color: @feed-back-block-text;
+        position: relative;
+    }
+//    .feed-back-block__container {
+//        min-height: @feed-back-block-height + 150px;
+//    }
+}
+@media screen and (min-width: 350px) and (max-width: 435px) {
+    .feed-back__main-text {
+        .ubuntu;
+        font-size: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .feed-back__author {
+        .ubuntu-mi;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__position {
+        .ubuntu-li;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__main-caption {
+        position: relative;
+        width: 100%;
+        height: 110px;
+    }
+    .feed-back__caption-block {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        h2 {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            .ubuntu-l;
+            font-size: 36px;
+        }
+    }
+    .feed-back__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 22px !important;
+    }
+    .feed-back__left-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+    }
+    .feed-back__right-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+    }
+
+    .carousel-indicators .indicator-blue.active {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #54adf1;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators .indicator-blue {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #355065;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    .feed-back-block {
+        background-color: @feed-back-block-background;
+        min-height: @feed-back-block-height + 50px;
+        color: @feed-back-block-text;
+        position: relative;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 349px) {
+    .feed-back__main-text {
+        .ubuntu;
+        font-size: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .feed-back__author {
+        .ubuntu-mi;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__position {
+        .ubuntu-li;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__main-caption {
+        position: relative;
+        width: 100%;
+        height: 110px;
+    }
+    .feed-back__caption-block {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        h2 {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            .ubuntu-l;
+            font-size: 36px;
+        }
+    }
+    .feed-back__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 22px !important;
+    }
+    .feed-back__left-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+    }
+    .feed-back__right-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+    }
+
+    .carousel-indicators .indicator-blue.active {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #54adf1;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators .indicator-blue {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #355065;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+    .feed-back-block {
+        background-color: @feed-back-block-background;
+        min-height: @feed-back-block-height + 50px;
+        color: @feed-back-block-text;
+        position: relative;
+    }
+}
+@media screen and (max-width: 299px) {
+    .feed-back__main-text {
+        .ubuntu;
+        font-size: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .feed-back__author {
+        .ubuntu-mi;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__position {
+        .ubuntu-li;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .feed-back__main-caption {
+        position: relative;
+        width: 100%;
+        height: 110px;
+    }
+    .feed-back__caption-block {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        h2 {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            .ubuntu-l;
+            font-size: 36px;
+        }
+    }
+    .feed-back__no-carousel-paddings {
+        padding: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        top: 22px !important;
+    }
+    .feed-back__left-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/left-quote.png') center center no-repeat;
+    }
+    .feed-back__right-quote {
+        padding: 0 !important;
+        //margin: 0 !important;
+        //width: 100%;
+        margin-top: -20px;
+        height: 37px;
+        //background: url('../../static/img/feed-back/right-quote.png') center center no-repeat;
+    }
+
+    .carousel-indicators .indicator-blue.active {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #54adf1;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators .indicator-blue {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        background-color: #355065;
+        border: none;
+        margin-right: 10px;
+    }
+    .carousel-indicators {
+        bottom: -55px;
+    }
+    .feed-back-block {
+        background-color: @feed-back-block-background;
+        /*min-height: 433px;*/
+        min-height: @feed-back-block-height + 80px;
+        color: @feed-back-block-text;
+        position: relative;
     }
 }
 /* телефоны */

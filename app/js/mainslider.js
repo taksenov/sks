@@ -11,10 +11,18 @@ $('#carousel-example-generic-main').carousel({
 
 
 // -- слайдер с отзывами
-$('#carousel-example-generic').carousel({
-    interval: 30000
-    //pause: 'none'
-});
-
-$('.feed-back__fadeInRight').addClass('animated fadeInLeft');
+//$('#carousel-example-generic').carousel({
+//    interval: 30000
+//    //pause: 'none'
+//});
+//
+//$('.feed-back__fadeInRight').addClass('animated fadeInLeft');
 // -- слайдер с отзывами
+
+
+
+
+
+
+
+

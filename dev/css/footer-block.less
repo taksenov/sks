@@ -39,11 +39,16 @@
 .footer-block__link {
     .ubuntu;
     font-size: 12px;
-    color: #54adf1;
-    text-decoration: underline;
-    &:hover {
+    a {
         color: #54adf1;
-        text-decoration: none;
+        text-decoration: underline;
+    }
+
+    &:hover {
+        a {
+            color: #54adf1 !important;
+            text-decoration: none !important;
+        }
     }
     z-index: 1;
 }

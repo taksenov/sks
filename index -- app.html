@@ -16,8 +16,6 @@
         <link rel="stylesheet" href="app/css/normalize.css">
         <!-- font-awesome -->
         <link rel="stylesheet" href="app/css/font-awesome.min.css">
-        <!-- Animate CSS -->
-        <link rel="stylesheet" href="app/css/animate.css">
 
         <!-- LESS убрать в продекшене -->
         <link rel="stylesheet" href="app/css/bundle.css">
@@ -30,7 +28,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- logo-block -->
+<!-- logo-block -->
         <section class="logo-block">
             <div class="container">
                 <div class="row">
@@ -133,8 +131,8 @@
                                     <div class="collapse navbar-collapse navbar__no-padding_right_left" id="bs-example-navbar-collapse-1">
 
                                         <ul class="nav navbar-nav ns_navbar__menu">
-                                            <li class="ns_navbar__menu-item">
-                                                <a href="" class="ns_navbar__menu-link menu-link_active">
+                                            <li class="ns_navbar__menu-item menu-link_active">
+                                                <a href="" class="ns_navbar__menu-link">
                                                     Главная
                                                 </a>
                                             </li>
@@ -181,7 +179,8 @@
                                                     Вопрос-ответ
                                                 </a>
                                             </li>
-                                            <li class="ns_navbar__menu-item">
+                                            <!-- Внимание селектор scrollToContacts обязателен! -->
+                                            <li class="ns_navbar__menu-item scrollToContacts">
                                                 <a href="" class="ns_navbar__menu-link">
                                                     Контакты
                                                 </a>
@@ -1162,6 +1161,7 @@
 
         <!-- free-help-block -->
         <section class="free-help-block">
+
             <div class="container">
 
                 <div class="row">
@@ -1213,6 +1213,7 @@
                 </div>
 
             </div>
+
         </section>
         <!-- free-help-block -->
 
@@ -1382,7 +1383,8 @@
         <section class="about-company-block">
             <div class="container">
 
-                <div class="row about-company-block__container-for-dots">
+                <!-- отображение на всех устройствах кроме телефонов  -->
+                <div class="row hidden-xs about-company-block__container-for-dots">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center about-company-block__header">
                         <h2>
                             О компании
@@ -1405,7 +1407,7 @@
                     <div class="about-company-block__dots-lg hidden-xs hidden-sm hidden-md"></div>
                     <div class="about-company-block__dots-md hidden-xs hidden-sm hidden-lg"></div>
                     <div class="about-company-block__dots-sm hidden-xs hidden-md hidden-lg"></div>
-                    <div class="about-company-block__dots-xs hidden-sm hidden-md hidden-lg"></div>
+                    <div class="about-company-block__dots-xs hidden-xs hidden-sm hidden-md hidden-lg"></div>
 
                     <div class="row hidden-xs">
 
@@ -1480,82 +1482,111 @@
                         </div>
 
                     </div>
+                </div>
+                <!-- отображение на всех устройствах кроме телефонов  -->
 
-                    <div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
+                <!-- отображение на телефонах  -->
+                <div class="row hidden-sm hidden-md hidden-lg about-company-block__container-for-dots">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center about-company-block__header">
+                        <h2>
+                            О компании
+                        </h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-company-block__text text-center">
+                        <p>
+                            ООО "Строительный Консалтинг Северо-Запада" - одна из наиболее динамично развивающихся
+                            консалтинговых компаний РФ, специализирующаяся на оказании широкого спектра услуг для
+                            компаний строительной отрасли. В наш штат входят высоко квалифицированные специалисты чей
+                            опыт работы в сфере строительства составляет не менее 10 лет, имеющие соответствующее
+                            профильное образование (ПГС), регулярно проходящие повышение квалификации по специальности,
+                            по направлению деятельности, системы менеджмента качества, системы экологического качества
+                            и системы менеджмента профессиональной безопасности и охраны здоровья. Наш опыт помогает
+                            нашим клиентам оперативно получать квалифицированную помощь на основании поставленной ими задачи,
+                            а также найти оптимальное ее решение.
+                        </p>
+                    </div>
 
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-header">
-                                Для опытных строителей
+
+                    <div class="container list-row">
+
+
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-header">
+                                    Для опытных строителей
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-list">
-                                <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Лицензирование</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Срочная подготовка документации для участия в тендере</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Cертификация</a>
-                                    </li>
-                                </ul>
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-list">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Лицензирование</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Срочная подготовка документации для участия в тендере</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Cертификация</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-header">
-                                ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-header">
+                                    ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-list">
-                                <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Создание компании</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Допуски, сертификаты, лицензии</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Продажа готовых компаний с документацией</a>
-                                    </li>
-                                </ul>
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-list">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Создание компании</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Допуски, сертификаты, лицензии</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Продажа готовых компаний с документацией</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-header">
-                                ДЛЯ ТЕХ, КТО ХОЧЕТ СДЕЛАТЬ ВСЕ САМ
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-header">
+                                    ДЛЯ ТЕХ, КТО ХОЧЕТ СДЕЛАТЬ ВСЕ САМ
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-list">
-                                <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Подготовка документации для участия в тендере</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Пожарная лицензия</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Еще какая-нибудь ситуация</a>
-                                    </li>
-                                </ul>
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-list">
+                                    <ul>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Подготовка документации для участия в тендере</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Пожарная лицензия</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="about-company-block__link">Еще какая-нибудь ситуация</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+
+
 
 
                     </div>
 
 
                 </div>
+                <!-- отображение на телефонах  -->
+
             </div>
         </section>
         <!-- about-company-block -->
 
         <!-- feed-back-block -->
         <section class="feed-back-block">
-            <div class="container">
+            <div class="container feed-back-block__container">
 
                 <div class="feed-back__main-caption">
                     <div class="feed-back__caption-block">
@@ -1572,7 +1603,7 @@
                 </div>
 
                 <!-- слайдер отображается на всех экранах кроме телефонов -->
-                <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -1585,15 +1616,17 @@
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
+
                         <div class="item feed-back__fadeInRight active">
-                            <img src="static/img/feed-back/test_4.png" alt="...">
+                            <img src="static/img/feed-back/test_4.png" alt="..." class="hidden-xs">
+                            <img src="static/img/feed-back/xs-test_4.png" alt="..." class="hidden-sm hidden-md hidden-lg">
                             <div class="carousel-caption feed-back__no-carousel-paddings">
 
                                 <!-- отображение только на больших экранах -->
-                                <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1 "></div>
-                                    <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
-                                        This is Photoshop's version  of Lorem Ipsum.
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
+                                        Привет! This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
                                         Aenean sollicitudin, lorem quis bibendum auctor,
                                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -1603,9 +1636,9 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1 "></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
                                 </div>
-                                <div class="row hidden-xs">
+                                <div class="row">
                                     <div class="col-lg-12 text-center feed-back__author">
                                         Кононов Александр Анатольевич
                                     </div>
@@ -1618,14 +1651,17 @@
 
                             </div>
                         </div>
+
                         <div class="item feed-back__fadeInRight">
-                            <img src="static/img/feed-back/test_4.png" alt="...">
+                            <img src="static/img/feed-back/test_4.png" alt="..." class="hidden-xs">
+                            <img src="static/img/feed-back/xs-test_4.png" alt="..." class="hidden-sm hidden-md hidden-lg">
                             <div class="carousel-caption feed-back__no-carousel-paddings">
+
                                 <!-- отображение только на больших экранах -->
-                                <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
-                                    <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
-                                        This is Photoshop's version  of Lorem Ipsum.
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
+                                        Привет! This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
                                         Aenean sollicitudin, lorem quis bibendum auctor,
                                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -1635,9 +1671,9 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
                                 </div>
-                                <div class="row hidden-xs">
+                                <div class="row">
                                     <div class="col-lg-12 text-center feed-back__author">
                                         Кононов Александр Анатольевич
                                     </div>
@@ -1646,16 +1682,21 @@
                                     </div>
                                 </div>
                                 <!-- отображение только на больших экранах -->
+
+
                             </div>
                         </div>
+
                         <div class="item feed-back__fadeInRight">
-                            <img src="static/img/feed-back/test_4.png" alt="...">
+                            <img src="static/img/feed-back/test_4.png" alt="..." class="hidden-xs">
+                            <img src="static/img/feed-back/xs-test_4.png" alt="..." class="hidden-sm hidden-md hidden-lg">
                             <div class="carousel-caption feed-back__no-carousel-paddings">
+
                                 <!-- отображение только на больших экранах -->
-                                <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
-                                    <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
-                                        This is Photoshop's version  of Lorem Ipsum.
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
+                                        Привет! This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
                                         Aenean sollicitudin, lorem quis bibendum auctor,
                                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -1665,9 +1706,9 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
                                 </div>
-                                <div class="row hidden-xs">
+                                <div class="row">
                                     <div class="col-lg-12 text-center feed-back__author">
                                         Кононов Александр Анатольевич
                                     </div>
@@ -1676,16 +1717,21 @@
                                     </div>
                                 </div>
                                 <!-- отображение только на больших экранах -->
+
+
                             </div>
                         </div>
+
                         <div class="item feed-back__fadeInRight">
-                            <img src="static/img/feed-back/test_4.png" alt="...">
+                            <img src="static/img/feed-back/test_4.png" alt="..." class="hidden-xs">
+                            <img src="static/img/feed-back/xs-test_4.png" alt="..." class="hidden-sm hidden-md hidden-lg">
                             <div class="carousel-caption feed-back__no-carousel-paddings">
+
                                 <!-- отображение только на больших экранах -->
-                                <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
-                                    <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
-                                        This is Photoshop's version  of Lorem Ipsum.
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
+                                        Привет! This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
                                         Aenean sollicitudin, lorem quis bibendum auctor,
                                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -1695,9 +1741,9 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
                                 </div>
-                                <div class="row hidden-xs">
+                                <div class="row">
                                     <div class="col-lg-12 text-center feed-back__author">
                                         Кононов Александр Анатольевич
                                     </div>
@@ -1706,16 +1752,21 @@
                                     </div>
                                 </div>
                                 <!-- отображение только на больших экранах -->
+
+
                             </div>
                         </div>
+
                         <div class="item feed-back__fadeInRight">
-                            <img src="static/img/feed-back/test_4.png" alt="...">
+                            <img src="static/img/feed-back/test_4.png" alt="..." class="hidden-xs">
+                            <img src="static/img/feed-back/xs-test_4.png" alt="..." class="hidden-sm hidden-md hidden-lg">
                             <div class="carousel-caption feed-back__no-carousel-paddings">
+
                                 <!-- отображение только на больших экранах -->
-                                <div class="row hidden-xs ">
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
-                                    <div class="col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
-                                        This is Photoshop's version  of Lorem Ipsum.
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-10 text-center feed-back__main-text">
+                                        Привет! This is Photoshop's version  of Lorem Ipsum.
                                         Proin gravida nibh vel velit auctor aliquet.
                                         Aenean sollicitudin, lorem quis bibendum auctor,
                                         nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -1725,9 +1776,9 @@
                                         auctor eu in elit. Class aptent taciti sociosqu ad litora
                                         torquent per conubia nostra, per inceptos himenaeos.
                                     </div>
-                                    <div class="col-sm-3 col-md-2 col-lg-1"></div>
+                                    <div class="col-sm-3 col-md-2 col-lg-1 hidden-xs"></div>
                                 </div>
-                                <div class="row hidden-xs">
+                                <div class="row">
                                     <div class="col-lg-12 text-center feed-back__author">
                                         Кононов Александр Анатольевич
                                     </div>
@@ -1736,37 +1787,16 @@
                                     </div>
                                 </div>
                                 <!-- отображение только на больших экранах -->
+
+
                             </div>
                         </div>
+
                     </div>
+
                 </div>
                 <!-- слайдер отображается на всех экранах кроме телефонов -->
 
-                <!-- отображение только на телефонах, без слайдера -->
-                <div class="row hidden-sm hidden-md hidden-lg feed-back__margbot30-xs feed-back__margtop30-xs">
-
-                    <div class="col-xs-12 feed-back__main-text text-center">
-                        This is Photoshop's version  of Lorem Ipsum.
-                        Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor,
-                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris
-                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                        auctor a ornare odio. Sed non  mauris vitae erat consequat
-                        auctor eu in elit. Class aptent taciti sociosqu ad litora
-                        torquent per conubia nostra, per inceptos himenaeos.
-                    </div>
-
-                </div>
-                <div class="row hidden-sm hidden-md hidden-lg about-company__margbot50">
-                    <div class="col-xs-12 text-center feed-back__author">
-                        Кононов Александр Анатольевич
-                    </div>
-                    <div class="col-xs-12 text-center feed-back__position">
-                        директор ОАО «Рога И Копыта»
-                    </div>
-                </div>
-                <!-- отображение только на телефонах, без слайдера -->
 
             </div>
         </section>
@@ -1774,6 +1804,7 @@
 
         <!-- individual-approach-block -->
         <section class="individual-approach-block">
+
             <div class="container">
 
                 <div class="row">
@@ -1811,6 +1842,7 @@
                 </div>
 
             </div>
+
         </section>
         <!-- individual-approach-block -->
 
@@ -1960,23 +1992,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 5
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 6
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 7
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 8
                                             </a>
                                         </li>
@@ -1993,23 +2025,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 1
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 2
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 3
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 4
                                             </a>
                                         </li>
@@ -2026,23 +2058,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="http://www.nostroy.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.nostroy.ru" >
                                                 www.nostroy.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.nop.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.nop.ru" >
                                                 www.nop.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.iziskately.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.iziskately.ru" >
                                                 www.iziskately.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.gosnadzor.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.gosnadzor.ru" >
                                                 www.gosnadzor.ru
                                             </a>
                                         </li>
@@ -2059,23 +2091,23 @@
                             <div class="col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="http://www.minregion.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.minregion.ru">
                                                 www.minregion.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://open.gov.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://open.gov.ru">
                                                 open.gov.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.gov.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.gov.ru">
                                                 www.gov.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.deloros.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.deloros.ru">
                                                 www.deloros.ru
                                             </a>
                                         </li>
@@ -2247,23 +2279,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 5
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 6
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 7
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 8
                                             </a>
                                         </li>
@@ -2280,23 +2312,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 1
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 2
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 3
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="">
                                                 Услуга 4
                                             </a>
                                         </li>
@@ -2344,23 +2376,23 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="http://www.nostroy.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.nostroy.ru">
                                                 www.nostroy.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.nop.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.nop.ru">
                                                 www.nop.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.iziskately.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.iziskately.ru">
                                                 www.iziskately.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.gosnadzor.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.gosnadzor.ru">
                                                 www.gosnadzor.ru
                                             </a>
                                         </li>
@@ -2377,23 +2409,23 @@
                             <div class="col-lg-12">
                                 <div class="footer-block__list">
                                     <ul>
-                                        <li>
-                                            <a href="http://www.minregion.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.minregion.ru">
                                                 www.minregion.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://open.gov.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://open.gov.ru">
                                                 open.gov.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.gov.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.gov.ru">
                                                 www.gov.ru
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="http://www.deloros.ru" class="footer-block__link">
+                                        <li class="footer-block__link">
+                                            <a href="http://www.deloros.ru">
                                                 www.deloros.ru
                                             </a>
                                         </li>
@@ -2570,23 +2602,23 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="footer-block__list">
                                 <ul>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 5
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 6
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 7
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 8
                                         </a>
                                     </li>
@@ -2604,23 +2636,23 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="footer-block__list">
                                 <ul>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 1
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 2
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 3
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="">
                                             Услуга 4
                                         </a>
                                     </li>
@@ -2642,23 +2674,23 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="footer-block__list">
                                 <ul>
-                                    <li>
-                                        <a href="http://www.nostroy.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.nostroy.ru">
                                             www.nostroy.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.nop.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.nop.ru">
                                             www.nop.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.iziskately.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.iziskately.ru">
                                             www.iziskately.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.gosnadzor.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.gosnadzor.ru">
                                             www.gosnadzor.ru
                                         </a>
                                     </li>
@@ -2675,23 +2707,23 @@
                         <div class="col-lg-12">
                             <div class="footer-block__list">
                                 <ul>
-                                    <li>
-                                        <a href="http://www.minregion.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.minregion.ru">
                                             www.minregion.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://open.gov.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://open.gov.ru">
                                             open.gov.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.gov.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.gov.ru">
                                             www.gov.ru
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.deloros.ru" class="footer-block__link">
+                                    <li class="footer-block__link">
+                                        <a href="http://www.deloros.ru">
                                             www.deloros.ru
                                         </a>
                                     </li>
