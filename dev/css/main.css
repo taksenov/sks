@@ -2958,8 +2958,16 @@
 .geografy__header-xs {
   margin-bottom: 15px;
 }
-@media screen and (min-width: 1218px) {
-  .geografy-block__middle-map {
+.geografy-block__towns {
+  font-family: 'Ubuntu';
+  font-size: 16px;
+}
+.geografy-block__towns ul {
+  list-style-image: url('../../static/img/geografy/town-marker-lg.png');
+  /* Путь к изображению маркера */
+}
+@media screen and (min-width: 1201px) {
+  .geografy-block__only-phones {
     display: none;
   }
   .geografy-block__map-grand {
@@ -3415,468 +3423,34 @@
     /* Путь к изображению маркера */
   }
 }
-@media screen and (min-width: 989px) and (max-width: 1217px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   .geografy-block__main-map {
     display: none;
-  }
-  .geografy-block__map-middle {
-    position: relative;
-    width: 900px;
-    height: 529px;
-  }
-  .geografy-block__map-middle-2 {
-    background: url('../../static/img/geografy/map.jpg') center center no-repeat;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .geografy-block__town-marker-1 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 122px;
-    left: 215px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-2 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 187px;
-    left: 112px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-3 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 186px;
-    left: 147px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-4 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 189px;
-    left: 194px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-5 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 209px;
-    left: 77px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-6 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 215px;
-    left: 102px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-7 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 206px;
-    left: 273px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-8 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 228px;
-    left: 135px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-9 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 244px;
-    left: 154px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-10 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 252px;
-    left: 131px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-11 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 263px;
-    left: 104px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-12 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 266px;
-    left: 231px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-13 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 291px;
-    left: 138px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-14 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 310px;
-    left: 75px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-15 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 322px;
-    left: 165px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-16 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 323px;
-    left: 227px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-17 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 345px;
-    left: -7px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-18 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 358px;
-    left: 43px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-19 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 350px;
-    left: 155px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-20 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 352px;
-    left: 242px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-21 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 364px;
-    left: 18px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-22 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 384px;
-    left: 10px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-23 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 408px;
-    left: 312px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-24 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 419px;
-    left: 372px;
-    z-index: 1;
-  }
-  .geografy-block__town-marker-25 {
-    width: 13px;
-    height: 13px;
-    background: url('../../static/img/geografy/town-marker-md.png') center center no-repeat;
-    position: absolute;
-    top: 404px;
-    left: 450px;
-    z-index: 1;
-  }
-  .geografy-block__town-1 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-2 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -3px;
-    left: -108px;
-    position: absolute;
-    width: 106px;
-  }
-  .geografy-block__town-3 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -18px;
-    left: -34px;
-    position: absolute;
-  }
-  .geografy-block__town-4 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-5 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: -42px;
-    position: absolute;
-  }
-  .geografy-block__town-6 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: 10px;
-    left: -116px;
-    position: absolute;
-    width: 126px;
-  }
-  .geografy-block__town-7 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-    width: 78px;
-  }
-  .geografy-block__town-8 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -11px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-9 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-10 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: 6px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-11 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: 10px;
-    left: -19px;
-    position: absolute;
-  }
-  .geografy-block__town-12 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-13 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-    width: 124px;
-  }
-  .geografy-block__town-14 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-15 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: 9px;
-    left: 8px;
-    position: absolute;
-  }
-  .geografy-block__town-16 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-17 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -18px;
-    left: -38px;
-    position: absolute;
-  }
-  .geografy-block__town-18 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -19px;
-    left: -33px;
-    position: absolute;
-    width: 124px;
-  }
-  .geografy-block__town-19 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: 12px;
-    left: -18px;
-    position: absolute;
-  }
-  .geografy-block__town-20 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-21 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: -77px;
-    position: absolute;
-  }
-  .geografy-block__town-22 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: -36px;
-    position: absolute;
-  }
-  .geografy-block__town-23 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-24 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
-  }
-  .geografy-block__town-25 {
-    font-family: 'Ubuntu';
-    font-size: 12px;
-    text-transform: uppercase;
-    top: -2px;
-    left: 16px;
-    position: absolute;
   }
   .geografy-block__towns {
     font-family: 'Ubuntu';
     font-size: 16px;
   }
   .geografy-block__towns ul {
-    list-style-image: url('../../static/img/geografy/town-marker-md.png');
+    list-style-image: url('../../static/img/geografy/town-marker-lg.png');
     /* Путь к изображению маркера */
   }
 }
-@media screen and (max-width: 988px) {
+@media screen and (min-width: 769px) and (max-width: 993px) {
   .geografy-block__main-map {
     display: none;
   }
-  .geografy-block__middle-map {
+  .geografy-block__towns {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+  }
+  .geografy-block__towns ul {
+    list-style-image: url('../../static/img/geografy/town-marker-lg.png');
+    /* Путь к изображению маркера */
+  }
+}
+@media screen and (max-width: 768px) {
+  .geografy-block__main-map {
     display: none;
   }
   .geografy-block__towns {
