@@ -247,7 +247,7 @@
 .dropdown-menu:after {
   clear: both;
 }
-.dropdown-menu-link-font-size {
+.dropdown-menu-link-font-size a {
   font-family: 'Ubuntu';
   font-size: 12px !important;
 }
