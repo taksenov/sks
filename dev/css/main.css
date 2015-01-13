@@ -293,7 +293,7 @@
   color: #54adf1;
 }
 .menu-link_active {
-  background-color: #54adf1;
+  background-color: #54adf1 !important;
 }
 .navbar__no-padding_right_left {
   padding-left: 0;

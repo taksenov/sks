@@ -15,7 +15,7 @@ var gulp         = require('gulp'),
 
 // компиляция из LESS в CSS
 //gulp.task('less', function () {
-//    gulp.src('./dev/css/*.less')
+//    gulp.src('./dev/css/main.less')
 //        .pipe(less())
 //        .pipe(gulp.dest('./dev/less-compilation'))
 //        .pipe(notify('LESS compilation -- All done!'));
@@ -77,8 +77,8 @@ gulp.task('css', function () {
 
 // default
 gulp.task('default', [
-                      //  'less'  //,
-                        'css' //,
+                        // 'less' // ,
+                         'css' //,
 //                      'js'
                      // 'ie8Css',
                      ]);
