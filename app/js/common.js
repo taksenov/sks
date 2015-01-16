@@ -22,7 +22,124 @@
             $(document).ready($.proxy(_this.loadPageInFirefox, _this));
             // -- слайдер к блоку с контактами
             $('.scrollToContacts').on('click', app.scrollToContacts);
+
+            // -- ввод только цифр в поле телефона
+            $('#recipient-phone').on('keypress', app.onlyDigitsValidate);
+            $('#recipient-phone').on('paste', app.onlyValidatePaste);
+            // -- ввод только цифр в поле телефона
+
+            // -- ввод только букв в поле ФИО
+            $('#recipient-name').on('keypress', app.onlySymbolsValidate);
+            $('#recipient-name').on('paste', app.onlyValidatePaste);
+            // -- ввод только букв в поле ФИО
+
+            // -- удалить ошибку при вводе данных в инпуты
+            $('form').on('keydown', 'input', app.removeError);
+
+            // скролл окна (показываем/прячем блочок с корзиной)
+            $(window).on('scroll', app.scroll);
+
         },
+
+        // показывает/прячет блок с навигацией
+        scroll: function () {
+            var top = $(window).scrollTop(),
+                cart = $(".nav-block");
+            if (top > 160) {
+                cart.addClass("cart_fixed");
+            } else {
+                cart.removeClass("cart_fixed");
+            }
+        },
+        /* ------------------------------------------------ */
+
+
+        // -- удаление тултипа и красной обводки с инпута при вводе в него данных
+        removeError: function () {
+            $(this).tooltip('destroy').parents('.form-group').removeClass('has-error');
+        },
+        // -- удаление тултипа и красной обводки с инпута при вводе в него данных
+
+        // -- ввод только букв в поле ФИО
+        onlySymbolsValidate: function (e) {
+            var chr = e.charCode,
+                doc_w = $(document).width(),
+                tooltipPlacement = '';
+
+            if (doc_w < 768) {
+                tooltipPlacement = 'bottom';
+            } else {
+                tooltipPlacement = 'bottom';
+            }
+
+
+            if (e.ctrlKey || e.altKey || e.metaKey) return;
+            if (
+                (chr < 97 || chr > 122)
+                &&
+                (chr < 65 || chr > 90)
+                &&
+                (chr != 45)
+                &&
+                (chr < 1040 || chr > 1105)
+                &&
+                (chr != 1025)
+                &&
+                (chr != 32)
+            ) {
+                $(this).tooltip({
+                        trigger: 'manual',
+                        placement: tooltipPlacement,
+                        title: 'Разрешено вводить только буквы'
+                    }).tooltip('show');
+                return false;
+            }
+        },
+        // -- ввод только букв в поле ФИО
+
+        // -- только ручной ввод в поле
+        onlyValidatePaste: function () {
+            var doc_w = $(document).width(),
+                tooltipPlacement = '';
+
+            if (doc_w < 768) {
+                tooltipPlacement = 'bottom';
+            } else {
+                tooltipPlacement = 'bottom';
+            }
+
+            $(this).tooltip({
+                trigger: 'manual',
+                placement: tooltipPlacement,
+                title: 'Вводите символы с клавиатуры вручную'
+            }).tooltip('show');
+            return false;
+        },
+        // -- только ручной ввод в поле
+
+        // -- проверка на ввод только цифр
+        onlyDigitsValidate: function (e) {
+            var chr = e.charCode,
+                doc_w = $(document).width(),
+                tooltipPlacement = '';
+
+            if (doc_w < 768) {
+                tooltipPlacement = 'top';
+            } else {
+                tooltipPlacement = 'top';
+            }
+
+            if (e.ctrlKey || e.altKey || e.metaKey || chr === 43) return;
+            if (chr < 48 || chr > 57)  {
+                $(this).tooltip({
+                        trigger: 'manual',
+                        placement: tooltipPlacement,
+                        title: 'Разрешено вводить только цифры'
+                    }).tooltip('show');
+                return false;
+            }
+        },
+        // -- проверка на ввод только цифр
 
         // -- функция скролла к контактам
         scrollToContacts: function (e) {

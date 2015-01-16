@@ -1,5 +1,5 @@
 /* -------= imports =------- */
-@import "fonts";
+@import "main";
 /* -------= imports =------- */
 
 /* -------= variables =------- */
@@ -66,7 +66,7 @@
     width: 360px;
     height: 304px;
     margin: auto;
-    margin-top: 300px;
+    //margin-top: 300px;
 }
 }
 
@@ -76,7 +76,7 @@
     width: 360px;
     height: 304px;
     margin: auto;
-    margin-top: 300px;
+    //margin-top: 300px;
 }
 }
 
@@ -85,16 +85,41 @@
     width: 360px;
     height: 304px;
     margin: auto;
-    margin-top: 300px;
+    //margin-top: 300px;
 }
 
 }
 
 @media screen and (max-width: 768px) {
 .modal-dialog__custom {
-    //width: 360px;
-    //height: 304px;
+    width: 100% !important;
+    height: 304px;
     margin: auto;
-    margin-top: 100px;
+    left: 0;
+    right: 0;
+    //margin-left: -15px !important;
+    //margin-top: 100px;
 }
 }
+
+
+.modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+}
+
+.modal-body {
+    overflow-y: auto;
+}
+.modal-footer {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  //.modal-dialog-center {
+    //width: 100%;
+  //}
+}
+

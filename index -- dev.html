@@ -10,7 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Favicon -->
+        <link href="static/img/favicon/favicon.ico" rel="shortcut icon">
 
         <link rel="stylesheet" href="dev/css/bootstrap.css">
         <link rel="stylesheet" href="dev/css/normalize.css">
@@ -20,6 +21,7 @@
         <!-- LESS убрать в продекшене -->
         <!--<link rel="stylesheet" href="app/css/bundle.css">-->
 		<link  href="dev/css/main.less" rel="stylesheet/less" type="text/css">
+
 
 
     </head>
@@ -209,7 +211,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active q_peopleCarousel">
-                    <img class="q_peopleCarouselImg" src="static/img/slider/slide_1.png" alt="...">
+                    <img class="q_peopleCarouselImg" src="static/img/slider/slide_1.jpg" alt="...">
                     <div class="carousel-caption slider-block__no-carousel-paddings">
 
                         <div class="container">
@@ -294,7 +296,7 @@
                 </div>
 
                 <div class="item q_peopleCarousel">
-                    <img class="q_peopleCarouselImg" src="static/img/slider/slide_2.png" alt="...">
+                    <img class="q_peopleCarouselImg" src="static/img/slider/slide_2.jpg" alt="...">
                     <div class="carousel-caption slider-block__no-carousel-paddings">
 
                         <div class="container">
@@ -1219,7 +1221,7 @@
 
         <!-- geografy-block -->
         <section class="geografy-block">
-            <div class="container geografy-block__container">
+            <div class="container">
 
                 <!-- показ на всех экранах кроме телефона -->
                 <div class="row ns_orderinfo__caption-large hidden-xs">
@@ -1253,7 +1255,7 @@
                 </div> <!-- показ на телефонах (уменьшена высота блока) -->
 
                 <!-- отображение на больших экранах -->
-                <div class="row text-center geografy-block__main-map">
+                <div class="row hidden-xs hidden-sm hidden-md text-center geografy-block__main-map">
                     <div class="geografy-block__map-grand">
 
                         <!-- блоки с маркерами городов -->
@@ -1342,35 +1344,9 @@
 
 
                 <!-- отображние только на телефонах -->
-                <div class="row about-company__margbot50 geografy-block__only-phones text-left">
-                    <div class="col-xs-12 geografy-block__towns">
-                        <ul>
-                            <li>Архангельск</li>
-                            <li>Великий Новгород</li>
-                            <li>Вологда</li>
-                            <li>Воронеж</li>
-                            <li>Екатеринбург</li>
-                            <li>Казань</li>
-                            <li>Краснодар</li>
-                            <li>Красноярск</li>
-                            <li>Москва</li>
-                            <li>Мурманск</li>
-                            <li>Нарьян-Мар</li>
-                            <li>Нижний Новгород</li>
-                            <li>Новосибирск</li>
-                            <li>Омск</li>
-                            <li>Пермь</li>
-                            <li>Петрозаводск</li>
-                            <li>Псков</li>
-                            <li>Ростов-на-Дону</li>
-                            <li>Самара</li>
-                            <li>Санкт-петербург</li>
-                            <li>Севастополь</li>
-                            <li>Сочи</li>
-                            <li>Сыктывкар</li>
-                            <li>Череповец</li>
-                            <li>Ярославль</li>
-                        </ul>
+                <div class="row hidden-lg about-company__margbot50 geografy-block__only-phones text-left geografy-block__small-map">
+                    <div class="col-xs-12">
+                        <img src="static/img/geografy/small-map.jpg" class="img-responsive" alt="карта России"/>
                     </div>
 
                 </div>
@@ -1415,13 +1391,13 @@
 
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="about-company-block__info-header">
-                                Для опытных строителей
+                                ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="about-company-block__info-header">
-                                ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
+                                Для опытных строителей
                             </div>
                         </div>
 
@@ -1438,30 +1414,14 @@
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="about-company-block__info-list">
                                 <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Лицензирование</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Создание компании</a>
                                     </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Срочная подготовка документации для участия в тендере</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Допуски, сертификаты, лицензии</a>
                                     </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Cертификация</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="about-company-block__info-list">
-                                <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Создание компании</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Допуски, сертификаты, лицензии</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Продажа готовых компаний с документацией</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Продажа готовых компаний с документацией</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1470,14 +1430,30 @@
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <div class="about-company-block__info-list">
                                 <ul>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Подготовка документации для участия в тендере</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Лицензирование</a>
                                     </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Пожарная лицензия</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Срочная подготовка документации для участия в тендере</a>
                                     </li>
-                                    <li>
-                                        <a href="" class="about-company-block__link">Еще какая-нибудь ситуация</a>
+                                    <li class="about-company-block__link">
+                                        <a href="">Cертификация</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-company-block__info-list">
+                                <ul>
+                                    <li class="about-company-block__link">
+                                        <a href="">Подготовка документации для участия в тендере</a>
+                                    </li>
+                                    <li class="about-company-block__link">
+                                        <a href="">Пожарная лицензия</a>
+                                    </li>
+                                    <li class="about-company-block__link">
+                                        <a href="">Еще какая-нибудь ситуация</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1511,27 +1487,6 @@
 
                     <div class="container list-row">
 
-
-                            <div class="col-xs-12 about-company-block__no-padleft-xs">
-                                <div class="about-company-block__info-header">
-                                    Для опытных строителей
-                                </div>
-                            </div>
-                            <div class="col-xs-12 about-company-block__no-padleft-xs">
-                                <div class="about-company-block__info-list">
-                                    <ul>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Лицензирование</a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Срочная подготовка документации для участия в тендере</a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Cертификация</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="col-xs-12 about-company-block__no-padleft-xs">
                                 <div class="about-company-block__info-header">
                                     ДЛЯ ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ СВОЙ ПУТЬ
@@ -1540,14 +1495,34 @@
                             <div class="col-xs-12 about-company-block__no-padleft-xs">
                                 <div class="about-company-block__info-list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Создание компании</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Создание компании</a>
                                         </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Допуски, сертификаты, лицензии</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Допуски, сертификаты, лицензии</a>
                                         </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Продажа готовых компаний с документацией</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Продажа готовых компаний с документацией</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-header">
+                                    Для опытных строителей
+                                </div>
+                            </div>
+                            <div class="col-xs-12 about-company-block__no-padleft-xs">
+                                <div class="about-company-block__info-list">
+                                    <ul>
+                                        <li class="about-company-block__link">
+                                            <a href="">Лицензирование</a>
+                                        </li>
+                                        <li class="about-company-block__link">
+                                            <a href="">Срочная подготовка документации для участия в тендере</a>
+                                        </li>
+                                        <li class="about-company-block__link">
+                                            <a href="">Cертификация</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1560,25 +1535,19 @@
                             <div class="col-xs-12 about-company-block__no-padleft-xs">
                                 <div class="about-company-block__info-list">
                                     <ul>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Подготовка документации для участия в тендере</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Подготовка документации для участия в тендере</a>
                                         </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Пожарная лицензия</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Пожарная лицензия</a>
                                         </li>
-                                        <li>
-                                            <a href="" class="about-company-block__link">Еще какая-нибудь ситуация</a>
+                                        <li class="about-company-block__link">
+                                            <a href="">Еще какая-нибудь ситуация</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-
-
-
-
                     </div>
-
-
                 </div>
                 <!-- отображение на телефонах  -->
 
@@ -2848,16 +2817,17 @@
                     <div class="modal-header modal-header__custom">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title modal-title__custom text-center" id="exampleModalLabel">
-                            Заполните контактную информацию
+                            Заполните контактную информацию или позвоните
+                            по номеру 8 800 550-74-77
                         </h4>
                     </div>
                     <div class="modal-body text-center">
                         <form id="order-form">
                             <div class="form-group">
-                                <input type="text" class="form-control form-control__custom" id="recipient-name" placeholder="ВВЕДИТЕ ИМЯ">
+                                <input type="text" class="form-control form-control__custom" id="recipient-name" placeholder="ИМЯ">
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control form-control__custom" id="recipient-phone" placeholder="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА">
+                                <input type="tel" class="form-control form-control__custom" id="recipient-phone" placeholder="+7 (495) 123-45-67">
                             </div>
                         </form>
                     </div>

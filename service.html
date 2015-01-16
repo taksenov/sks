@@ -10,7 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Favicon -->
+        <link href="static/img/favicon/favicon.ico" rel="shortcut icon">
 
         <link rel="stylesheet" href="app/css/bootstrap.css">
         <link rel="stylesheet" href="app/css/normalize.css">
@@ -144,19 +145,19 @@
                                             <li class="dropdown ns_navbar__menu-item">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Услуги <span class="caret"></span></a>
                                                 <ul class="dropdown-menu" role="menu">
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">СРО</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">СРО</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">ISO</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">ISO</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">Бухгалтерские услуги</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">Бухгалтерские услуги</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">Юридические услуги</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">Юридические услуги</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">Лицензирование</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">Лицензирование</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">Тендеры</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">Тендеры</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="#" class="dropdown-menu-link-font-size">Негосударственная экспертиза</a></li>
+                                                    <li class="dropdown-menu-link-font-size"><a href="#">Негосударственная экспертиза</a></li>
                                                 </ul>
                                             </li>
                                             <li class="ns_navbar__menu-item">
@@ -223,7 +224,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel-group" id="accordion-not-collapsed" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default service-block__no-border">
                                 <div class="panel-heading service-block__no-pad-left-right" role="tab" id="headingOne">
                                     <h4 class="panel-title">
@@ -1323,16 +1324,17 @@
                     <div class="modal-header modal-header__custom">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title modal-title__custom text-center" id="exampleModalLabel">
-                            Заполните контактную информацию
+                            Заполните контактную информацию или позвоните
+                            по номеру 8 800 550-74-77
                         </h4>
                     </div>
                     <div class="modal-body text-center">
                         <form id="order-form">
                             <div class="form-group">
-                                <input type="text" class="form-control form-control__custom" id="recipient-name" placeholder="ВВЕДИТЕ ИМЯ">
+                                <input type="text" class="form-control form-control__custom" id="recipient-name" placeholder="ИМЯ">
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control form-control__custom" id="recipient-phone" placeholder="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА">
+                                <input type="tel" class="form-control form-control__custom" id="recipient-phone" placeholder="+7 (495) 123-45-67">
                             </div>
                         </form>
                     </div>
