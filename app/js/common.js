@@ -45,7 +45,7 @@
         scroll: function () {
             var top = $(window).scrollTop(),
                 cart = $(".nav-block");
-            if (top > 160) {
+            if (top > 97) {
                 cart.addClass("cart_fixed");
             } else {
                 cart.removeClass("cart_fixed");
