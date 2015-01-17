@@ -43,9 +43,18 @@
 
         // показывает/прячет блок с навигацией
         scroll: function () {
+            var doc_w = $(document).width();
+
+            if (doc_w < 768) {
+                heightNav = 249
+            } else {
+                heightNav = 97
+            }
+
             var top = $(window).scrollTop(),
                 cart = $(".nav-block");
-            if (top > 97) {
+
+            if (top > heightNav) {
                 cart.addClass("cart_fixed");
             } else {
                 cart.removeClass("cart_fixed");
